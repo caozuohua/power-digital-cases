@@ -2745,6 +2745,58 @@
     "confidence": "高"
   },
   {
+    "id": "za-eskom-003",
+    "title": "Eskom 智能电表大规模部署",
+    "country": "南非",
+    "company": "Eskom",
+    "year": 2025,
+    "tech": [
+      "智能电表",
+      "AMI",
+      "数字化",
+      "IoT"
+    ],
+    "scale": "大型",
+    "investment": "数十亿兰特",
+    "roi": "2025-2029年部署智能电表，目标2027年3月结束负荷削减",
+    "summary": "Eskom大规模部署智能电表，2025年启动，2029年完成，目标2027年3月结束负荷削减。",
+    "detail": "Eskom启动大规模智能电表部署项目。项目从2025年开始，计划2029年完成。智能电表实现用电数据实时采集和远程管理。目标2027年3月结束负荷削减（load shedding）。项目是南非电力行业数字化转型的重要组成部分。",
+    "source": "https://www.eskom.co.za/distribution/smart-meters/",
+    "tags": [
+      "智能电表",
+      "AMI",
+      "数字化",
+      "负荷削减"
+    ],
+    "confidence": "中"
+  },
+  {
+    "id": "za-eskom-004",
+    "title": "Eskom 敏捷可再生能源业务",
+    "country": "南非",
+    "company": "Eskom",
+    "year": 2025,
+    "tech": [
+      "可再生能源",
+      "数字化",
+      "AI",
+      "24/7供应"
+    ],
+    "scale": "大型",
+    "investment": "数十亿兰特",
+    "roi": "敏捷可再生能源业务，加速脱碳，实现24/7供电",
+    "summary": "Eskom推出敏捷可再生能源业务，加速脱碳，实现24/7供电。",
+    "detail": "Eskom推出敏捷公用事业规模可再生能源业务（Eskom Green）。业务旨在加速脱碳，实现24/7供电。AI优化可再生能源调度和预测。项目包括Lethabo 75MW太阳能电站建设。可再生能源业务是Eskom转型战略的核心。",
+    "source": "https://www.eskom.co.za/eskom-holdings-launches-agile-utility-scale-renewable-energy-business-eskom-green-and-a-go-to-market-customer-strategy-to-support-24-7-supply-and-decarbonise-grid/",
+    "tags": [
+      "可再生能源",
+      "数字化",
+      "AI",
+      "脱碳"
+    ],
+    "confidence": "中"
+  },
+  {
     "id": "za-eskom-001",
     "title": "Eskom 南非智慧煤电数字化改造",
     "country": "南非",
@@ -3371,6 +3423,84 @@
       "输电"
     ],
     "confidence": "高"
+  },
+  {
+    "id": "ng-kedco-001",
+    "title": "尼日利亚KEDCO太阳能微电网AI项目",
+    "country": "尼日利亚",
+    "company": "Kano Electricity Distribution Company (KEDCO)",
+    "year": 2025,
+    "tech": [
+      "太阳能微电网",
+      "AI",
+      "微电网",
+      "储能"
+    ],
+    "scale": "中型",
+    "investment": "数千万美元",
+    "roi": "100个微电网为KEDCO供电区域提供24小时电力",
+    "summary": "KEDCO部署100个太阳能微电网，AI优化储能和供电，为Kano、Katsina、Jigawa提供24小时电力。",
+    "detail": "KEDCO（Kano Electricity Distribution Company）部署100个太阳能微电网项目。项目旨在为Kano、Katsina和Jigawa地区提供24小时电力供应。AI优化微电网的储能和发电调度。项目由PAMAFRICA支持，包括1MW微电网为Kano州40多家碾米厂供电。",
+    "source": "https://wearevuka.com/wp-content/uploads/2025/11/PAMAFRICA-Project-1MW-KEDCO-Project.pdf",
+    "tags": [
+      "太阳能微电网",
+      "AI",
+      "微电网",
+      "储能"
+    ],
+    "confidence": "中"
+  },
+  {
+    "id": "ng-kano-001",
+    "title": "尼日利亚Kano智能电网项目",
+    "country": "尼日利亚",
+    "company": "Kano Electricity Distribution Company",
+    "year": 2025,
+    "tech": [
+      "智能电网",
+      "AI",
+      "数字化",
+      "IoT"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "尼日利亚首个智能电网项目，Kano签署合作协议",
+    "summary": "Kano配电公司签署合作协议，准备尼日利亚首个智能电网项目。",
+    "detail": "Kano Electricity Distribution Company签署合作协议，准备尼日利亚首个智能电网项目。项目采用AI和数字化技术优化配电网。IoT传感器覆盖关键设备。智能电网将提升电网可靠性和效率。项目在Enlit Africa 2026上宣布。",
+    "source": "https://www.instagram.com/reel/DZuN0TQgpQo/",
+    "tags": [
+      "智能电网",
+      "AI",
+      "数字化",
+      "IoT",
+      "尼日利亚首个"
+    ],
+    "confidence": "中"
+  },
+  {
+    "id": "ng-worldbank-001",
+    "title": "尼日利亚世界银行智能电表项目",
+    "country": "尼日利亚",
+    "company": "尼日利亚配电公司 (DisCos)",
+    "year": 2025,
+    "tech": [
+      "智能电表",
+      "AMI",
+      "数字化"
+    ],
+    "scale": "大型",
+    "investment": "世界银行/非洲开发银行",
+    "roi": "2025年安装150万台，2026年400万台，2027年150万台智能电表",
+    "summary": "世界银行和非洲开发银行资助尼日利亚配电公司大规模部署智能电表。",
+    "detail": "世界银行和非洲开发银行资助尼日利亚配电公司（DisCos）大规模部署智能电表。计划2025年安装150万台，2026年400万台，2027年150万台。总计700万台智能电表。项目是尼日利亚国家能源紧凑计划的一部分。智能电表实现用电数据远程采集和管理。",
+    "source": "https://thedocs.worldbank.org/en/doc/2340747bcba6747a15a4ff8cba935fce-0010012025/original/M300-AES-Compact-Nigeria.pdf",
+    "tags": [
+      "智能电表",
+      "AMI",
+      "世界银行",
+      "700万台"
+    ],
+    "confidence": "中"
   },
   {
     "id": "ng-tcn-001",
@@ -5758,6 +5888,85 @@
       "线损管理"
     ],
     "confidence": "高"
+  },
+  {
+    "id": "ke-kenyapower-001",
+    "title": "肯尼亚电力智能电网继电保护改造",
+    "country": "肯尼亚",
+    "company": "Kenya Power",
+    "year": 2025,
+    "tech": [
+      "智能电网",
+      "继电保护",
+      "IED",
+      "数字化"
+    ],
+    "scale": "大型",
+    "investment": "数千万美元",
+    "roi": "所有电磁和非智能数字继电器更换为智能电子设备（IEDs）",
+    "summary": "肯尼亚电力实施智能电网继电保护改造项目，所有继电器更换为智能电子设备（IEDs）。",
+    "detail": "肯尼亚电力实施智能电网继电保护改造项目。项目将所有电磁和非智能数字继电器更换为智能电子设备（IEDs）。IEDs实现实时通信和远程控制，提升电网可靠性和自动化水平。项目是世界银行资助的肯尼亚国家能源紧凑计划的一部分。",
+    "source": "https://www.worldbank.org/content/dam/theworldbankgroupasset/document/2026/m300-energy-compacts/Kenya-National-Energy-Compact-Mission-300.pdf",
+    "tags": [
+      "智能电网",
+      "继电保护",
+      "IED",
+      "数字化"
+    ],
+    "confidence": "中"
+  },
+  {
+    "id": "ke-kenyapower-002",
+    "title": "肯尼亚电力AI数据中心电力管理",
+    "country": "肯尼亚",
+    "company": "Kenya Power",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "数据中心",
+      "电力管理",
+      "预测性维护"
+    ],
+    "scale": "大型",
+    "investment": "数千万美元",
+    "roi": "AI优化数据中心电力供应，预测性维护减少故障",
+    "summary": "肯尼亚电力部署AI数据中心电力管理系统，预测性维护减少故障。",
+    "detail": "肯尼亚电力部署AI数据中心电力管理系统。AI优化数据中心电力供应和调度。预测性维护提前预警设备故障。2025年肯尼亚峰值电力需求创历史新高。AI帮助管理日益增长的AI数据中心电力需求。",
+    "source": "https://www.linkedin.com/pulse/powering-digital-future-can-kenyas-grid-sustain-ai-data-lilian-okwiri-u0ike",
+    "tags": [
+      "AI",
+      "数据中心",
+      "电力管理",
+      "预测性维护"
+    ],
+    "confidence": "中"
+  },
+  {
+    "id": "ke-kenyapower-003",
+    "title": "肯尼亚电力Grid & Innovation Conference 2025",
+    "country": "肯尼亚",
+    "company": "Kenya Power",
+    "year": 2025,
+    "tech": [
+      "智能电网",
+      "AI",
+      "创新",
+      "数字化"
+    ],
+    "scale": "大型",
+    "investment": "研究",
+    "roi": "第二届电网与创新大会，推动AI在电力行业的创新应用",
+    "summary": "肯尼亚电力举办第二届电网与创新大会，推动AI在电力行业的创新应用。",
+    "detail": "肯尼亚电力举办2025年Grid & Innovation Conference。大会推动AI在电力行业的创新应用。主题包括智能电网、AI、数字化和创新。大会汇集行业专家、技术公司和政策制定者。推动肯尼亚电力行业的数字化转型。",
+    "source": "https://www.youtube.com/watch?v=Cxmwl0dFfXk",
+    "tags": [
+      "智能电网",
+      "AI",
+      "创新",
+      "数字化",
+      "大会"
+    ],
+    "confidence": "中"
   },
   {
     "id": "ke-kplc-001",
