@@ -1,8 +1,8 @@
 // Power Industry Digital Transformation Case Studies
-// data/cases.json → searchable, filterable, tag-driven
+// data/cases.json → searchable, filterable, tag-driven, with confidence levels
 
 let allCases = [];
-let activeFilters = { country: '', scale: '', year: '', tag: '', search: '' };
+let activeFilters = { country: '', scale: '', year: '', tag: '', search: '', confidence: '' };
 
 // ── Init ──
 document.addEventListener('DOMContentLoaded', async () => {
@@ -25,14 +25,17 @@ function buildFilters() {
   const countries = [...new Set(allCases.map(c => c.country))].sort();
   const scales = [...new Set(allCases.map(c => c.scale))];
   const years = [...new Set(allCases.map(c => c.year))].sort((a, b) => b - a);
+  const confidences = [...new Set(allCases.map(c => c.confidence || '未标注'))];
 
   fillSelect('filter-country', countries);
   fillSelect('filter-scale', scales);
   fillSelect('filter-year', years);
+  fillSelect('filter-confidence', confidences);
 }
 
 function fillSelect(id, items) {
   const sel = document.getElementById(id);
+  if (!sel) return;
   items.forEach(v => {
     const opt = document.createElement('option');
     opt.value = v;
@@ -81,6 +84,7 @@ function getFiltered() {
     if (activeFilters.scale && c.scale !== activeFilters.scale) return false;
     if (activeFilters.year && c.year !== parseInt(activeFilters.year)) return false;
     if (activeFilters.tag && !(c.tags || []).includes(activeFilters.tag)) return false;
+    if (activeFilters.confidence && (c.confidence || '未标注') !== activeFilters.confidence) return false;
     if (activeFilters.search) {
       const q = activeFilters.search.toLowerCase();
       const haystack = [
@@ -91,6 +95,13 @@ function getFiltered() {
     }
     return true;
   });
+}
+
+// ── Confidence badge ──
+function confidenceBadge(c) {
+  const level = c.confidence || '未标注';
+  const cls = level === '高' ? 'conf-high' : level === '中' ? 'conf-mid' : level === '低' ? 'conf-low' : 'conf-none';
+  return `<span class="confidence ${cls}">${level}</span>`;
 }
 
 // ── Render ──
@@ -113,7 +124,10 @@ function render() {
 
   grid.innerHTML = filtered.map(c => `
     <div class="case-card" data-id="${c.id}">
-      <span class="country">${c.country}</span>
+      <div class="card-header">
+        <span class="country">${c.country}</span>
+        ${confidenceBadge(c)}
+      </div>
       <h3>${c.title}</h3>
       <div class="company">${c.company} · ${c.year}</div>
       <div class="summary">${c.summary}</div>
@@ -139,7 +153,7 @@ function openModal(id) {
   const body = document.getElementById('modal-body');
   body.innerHTML = `
     <h2>${c.title}</h2>
-    <div class="modal-company">${c.company} · ${c.country} · ${c.year}</div>
+    <div class="modal-company">${c.company} · ${c.country} · ${c.year} · 置信度：${confidenceBadge(c)}</div>
     <div class="modal-meta">
       <div class="meta-item"><label>规模</label><span>${c.scale}</span></div>
       <div class="meta-item"><label>投资额</label><span>${c.investment}</span></div>
@@ -172,8 +186,10 @@ function bindEvents() {
   });
 
   // Dropdowns
-  ['filter-country', 'filter-scale', 'filter-year'].forEach(id => {
-    document.getElementById(id).addEventListener('change', e => {
+  ['filter-country', 'filter-scale', 'filter-year', 'filter-confidence'].forEach(id => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.addEventListener('change', e => {
       const key = id.replace('filter-', '');
       activeFilters[key] = e.target.value;
       render();
@@ -182,11 +198,13 @@ function bindEvents() {
 
   // Reset
   document.getElementById('btn-reset').addEventListener('click', () => {
-    activeFilters = { country: '', scale: '', year: '', tag: '', search: '' };
+    activeFilters = { country: '', scale: '', year: '', tag: '', search: '', confidence: '' };
     document.getElementById('search-input').value = '';
     document.getElementById('filter-country').value = '';
     document.getElementById('filter-scale').value = '';
     document.getElementById('filter-year').value = '';
+    const confEl = document.getElementById('filter-confidence');
+    if (confEl) confEl.value = '';
     updateTagActive();
     render();
   });

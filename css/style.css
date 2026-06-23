@@ -113,6 +113,12 @@ header .subtitle { opacity: 0.85; font-size: 1.1em; }
   transform: translateY(-2px);
   border-color: var(--primary);
 }
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
 .case-card .country {
   display: inline-block;
   font-size: 0.78em;
@@ -120,8 +126,18 @@ header .subtitle { opacity: 0.85; font-size: 1.1em; }
   background: #e8f5e9;
   color: #2e7d32;
   border-radius: 4px;
-  margin-bottom: 8px;
 }
+.confidence {
+  display: inline-block;
+  font-size: 0.75em;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+.conf-high { background: #e8f5e9; color: #2e7d32; }
+.conf-mid { background: #fff8e1; color: #f57f17; }
+.conf-low { background: #fce4ec; color: #c62828; }
+.conf-none { background: #f1f3f4; color: #5f6368; }
 .case-card h3 { font-size: 1.1em; margin-bottom: 6px; line-height: 1.4; }
 .case-card .company { color: var(--text-secondary); font-size: 0.9em; margin-bottom: 8px; }
 .case-card .summary { font-size: 0.9em; color: var(--text-secondary); margin-bottom: 10px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
