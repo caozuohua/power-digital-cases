@@ -3738,6 +3738,59 @@
     "confidence": "高"
   },
   {
+    "id": "it-enel-003",
+    "title": "Enel 2025 AI战略 380亿欧元电网数字化",
+    "country": "意大利",
+    "company": "Enel",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "电网数字化",
+      "智能电网",
+      "预测性维护"
+    ],
+    "scale": "大型",
+    "investment": "380亿欧元",
+    "roi": "260亿欧元用于电网数字化和韧性，C3预测性维护覆盖16000个变电站",
+    "summary": "Enel推出2025 AI战略，380亿欧元投资计划中260亿欧元用于电网数字化。",
+    "detail": "Enel推出2025 AI战略，总投资计划380亿欧元。其中260亿欧元用于意大利和西班牙的电网数字化和韧性。120亿欧元用于发电。C3预测性维护系统覆盖意大利16000个变电站，服务100万客户。AI优化电网运行和故障预测。",
+    "source": "https://enkiai.com/ai-market-intelligence/enels-2025-ai-strategy-dominating-grid-modernization/",
+    "tags": [
+      "AI",
+      "电网数字化",
+      "智能电网",
+      "预测性维护"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "it-enel-004",
+    "title": "Enel 2026-2028战略计划 电网投资260亿欧元",
+    "country": "意大利",
+    "company": "Enel",
+    "year": 2025,
+    "tech": [
+      "电网",
+      "数字化",
+      "AI",
+      "智能电网"
+    ],
+    "scale": "大型",
+    "investment": "260亿欧元",
+    "roi": "2026-2028年战略计划电网总投资超260亿欧元",
+    "summary": "Enel 2026-2028年战略计划电网总投资超260亿欧元，数字化和自动化提升运营效率。",
+    "detail": "Enel发布2026-2028年战略计划。电网总投资超260亿欧元。投资重点包括数字化、自动化和智能电网技术。提升运营效率和成本优化。推动意大利和西班牙的能源转型。",
+    "source": "https://www.enel.com/company/grids",
+    "tags": [
+      "电网",
+      "数字化",
+      "AI",
+      "智能电网",
+      "投资"
+    ],
+    "confidence": "高"
+  },
+  {
     "id": "it-enel-gridspertise-001",
     "title": "Enel Gridspertise 电网数字化服务",
     "country": "意大利",
@@ -3788,6 +3841,32 @@
     "confidence": "高"
   },
   {
+    "id": "no-statnett-003",
+    "title": "Statnett AI水电优化系统",
+    "country": "挪威",
+    "company": "Statnett",
+    "year": 2026,
+    "tech": [
+      "AI",
+      "水电",
+      "优化",
+      "水库管理"
+    ],
+    "scale": "大型",
+    "investment": "数亿挪威克朗",
+    "roi": "AI优化挪威水库管理，200个水库协同调度",
+    "summary": "挪威激活AI水电系统，优化全国200个水库管理。",
+    "detail": "2026年，挪威激活了AI水电系统，优化全国水库管理。系统协调200个独立水库的调度。AI算法根据来水预测、电价和电网需求优化水库运行。提升水电调度效率和可再生能源消纳。",
+    "source": "https://www.facebook.com/groups/849994733672039/posts/1356792746325566/",
+    "tags": [
+      "AI",
+      "水电",
+      "优化",
+      "水库管理"
+    ],
+    "confidence": "高"
+  },
+  {
     "id": "no-statkraft-002",
     "title": "Statkraft 欧洲水电智慧调度2.0",
     "country": "挪威",
@@ -3810,6 +3889,32 @@
       "数字孪生",
       "大数据",
       "智慧调度"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "no-statnett-004",
+    "title": "Statnett 电网升级投资106亿挪威克朗",
+    "country": "挪威",
+    "company": "Statnett",
+    "year": 2025,
+    "tech": [
+      "电网升级",
+      "数字化",
+      "AI",
+      "输电"
+    ],
+    "scale": "大型",
+    "investment": "106亿挪威克朗",
+    "roi": "2025年投资106亿挪威克朗，加速电网建设和现代化",
+    "summary": "Statnett 2025年投资106亿挪威克朗加速电网建设和现代化。",
+    "detail": "挪威电网运营商Statnett 2025年总投资达106亿挪威克朗，较2024年的76亿大幅增长。投资重点包括电网扩容和现代化。Hitachi Energy合作建设挪威首个环保型输电电网连接方案。数字化和AI技术用于电网监控和优化。",
+    "source": "https://energywatch.com/EnergyNews/grid/article19084150.ece",
+    "tags": [
+      "电网升级",
+      "数字化",
+      "AI",
+      "输电"
     ],
     "confidence": "高"
   },
@@ -4436,6 +4541,85 @@
     "confidence": "高"
   },
   {
+    "id": "th-gorilla-001",
+    "title": "泰国Gorilla Technology 18亿美元智能电网AI项目",
+    "country": "泰国",
+    "company": "EGAT / PEA (Gorilla Technology)",
+    "year": 2025,
+    "tech": [
+      "智能电网",
+      "AI",
+      "数字化",
+      "IoT"
+    ],
+    "scale": "大型",
+    "investment": "18亿美元",
+    "roi": "泰国最大智能电网和AI能源转型项目",
+    "summary": "Gorilla Technology获得18亿美元协议，主导泰国最大的智能电网和AI能源转型项目。",
+    "detail": "Gorilla Technology Group宣布获得18亿美元协议，主导泰国最大的智能电网和AI能源转型项目。项目覆盖泰国全国电网。AI技术用于优化电网运行和可再生能源集成。IoT传感器覆盖关键设备。这是泰国电力行业历史上最大的数字化项目之一。",
+    "source": "https://www.enlit.world/library/thailand-set-for-1-8-billion-smart-grid-and-ai-powered-energy-transformation",
+    "tags": [
+      "智能电网",
+      "AI",
+      "数字化",
+      "IoT",
+      "18亿美元"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "th-egat-003",
+    "title": "泰国EGAT Mae Hong Son智能电网试点",
+    "country": "泰国",
+    "company": "泰国发电局 (EGAT)",
+    "year": 2025,
+    "tech": [
+      "智能电网",
+      "可再生能源",
+      "储能",
+      "AI"
+    ],
+    "scale": "中型",
+    "investment": "数千万美元",
+    "roi": "Mae Hong Son省智能电网试点，可再生能源集成和储能",
+    "summary": "EGAT在Mae Hong Son省建设智能电网试点项目，集成可再生能源和储能。",
+    "detail": "EGAT在Mae Hong Son省建设智能电网试点项目。项目包括可再生能源集成和储能系统。AI优化电网运行和可再生能源消纳。电池储能系统用于平衡偏远地区的可再生能源波动。项目是泰国智能电网总体规划的一部分。",
+    "source": "https://www.energy-storage.news/thai-power-authorities-investigate-smart-grids-for-renewables-integration-in-remote-region/",
+    "tags": [
+      "智能电网",
+      "可再生能源",
+      "储能",
+      "AI"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "th-pea-002",
+    "title": "泰国PEA智能电网Pattaya-Chiang Mai-Phuket",
+    "country": "泰国",
+    "company": "泰国地方电力局 (PEA)",
+    "year": 2025,
+    "tech": [
+      "智能电网",
+      "AI",
+      "数字化",
+      "IoT"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "PEA在Pattaya、Chiang Mai、Phuket部署智能电网",
+    "summary": "PEA在Pattaya、Chiang Mai、Phuket等主要城市部署智能电网。",
+    "detail": "PEA（泰国地方电力局）在Pattaya、Chiang Mai、Phuket等主要城市部署智能电网。AI优化电网运行和故障检测。IoT传感器覆盖配电网关键设备。智能电网支持泰国旅游业和经济发展。",
+    "source": "https://www.facebook.com/hitachienergy.global/posts/-ai-is-reshaping-the-energy-landscape-are-you-readydriven-by-the-megatrends-of-d/1168477728757662/",
+    "tags": [
+      "智能电网",
+      "AI",
+      "数字化",
+      "IoT"
+    ],
+    "confidence": "高"
+  },
+  {
     "id": "th-egat-001",
     "title": "泰国EGAT智能电网现代化项目",
     "country": "泰国",
@@ -4567,6 +4751,58 @@
     "confidence": "高"
   },
   {
+    "id": "se-svk-001",
+    "title": "Svenska kraftnät AI电网现代化",
+    "country": "瑞典",
+    "company": "Svenska kraftnät",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "电网现代化",
+      "数字化",
+      "智能电网"
+    ],
+    "scale": "大型",
+    "investment": "数亿瑞典克朗",
+    "roi": "CGI被选中和瑞典国家电网合作，确保和现代化瑞典电网",
+    "summary": "Svenska kraftnät（瑞典国家电网）与CGI合作，利用AI技术现代化瑞典电网。",
+    "detail": "Svenska kraftnät选择CGI作为合作伙伴，确保和现代化瑞典电网以满足当前和未来需求。项目利用AI和数字化技术提升电网可靠性和效率。瑞典电网是北欧互联电网的关键组成部分。",
+    "source": "https://www.facebook.com/CGIGroup/posts/we-have-been-selected-by-svenska-kraftn%C3%A4t-to-secure-and-modernize-swedens-power-/1254361483390570/",
+    "tags": [
+      "AI",
+      "电网现代化",
+      "数字化",
+      "智能电网"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "se-vattenfall-002",
+    "title": "Vattenfall AI风电运维2.0",
+    "country": "瑞典",
+    "company": "Vattenfall",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "风电",
+      "预测性维护",
+      "数字化"
+    ],
+    "scale": "大型",
+    "investment": "数亿欧元",
+    "roi": "AI优化风电运维，风机可用率提升至98%",
+    "summary": "Vattenfall升级AI风电运维2.0，预测性维护提升风机可用率至98%。",
+    "detail": "Vattenfall是瑞典最大的电力公司之一。AI风电运维2.0系统通过预测性维护优化风机运行。AI算法分析风机运行数据，提前预警潜在故障。风机可用率提升至98%。系统覆盖Vattenfall在瑞典的全部风电场。",
+    "source": "https://www.vattenfall.com/",
+    "tags": [
+      "AI",
+      "风电",
+      "预测性维护",
+      "数字化"
+    ],
+    "confidence": "高"
+  },
+  {
     "id": "se-vattenfall-001",
     "title": "Vattenfall 智慧能源社区项目",
     "country": "瑞典",
@@ -4643,6 +4879,58 @@
       "高可靠性"
     ],
     "confidence": "高"
+  },
+  {
+    "id": "jo-nepco-001",
+    "title": "约旦NEPCO智能电网试点项目",
+    "country": "约旦",
+    "company": "约旦国家电力公司 (NEPCO)",
+    "year": 2025,
+    "tech": [
+      "智能电网",
+      "SCADA",
+      "可再生能源",
+      "AI"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "智能电网试点项目，扩展互联，安装SCADA和动态线路评级",
+    "summary": "约旦NEPCO实施智能电网试点项目，扩展电网互联，安装SCADA和动态线路评级系统。",
+    "detail": "约旦国家电力公司（NEPCO）实施智能电网试点项目。项目包括扩展电网互联、安装SCADA系统和动态线路评级技术。支持可再生能源集成，提升电网可靠性和效率。AI用于电网调度和故障预测。项目是约旦能源部门数字化转型的重要组成部分。",
+    "source": "https://www.memr.gov.jo/EBV4.0/Root_Storage/EN/EB_Info_Page/JESS_2025-2035_Final.pdf",
+    "tags": [
+      "智能电网",
+      "SCADA",
+      "可再生能源",
+      "AI"
+    ],
+    "confidence": "中"
+  },
+  {
+    "id": "jo-nepco-002",
+    "title": "约旦NEPCO绿色增长AI培训",
+    "country": "约旦",
+    "company": "约旦国家电力公司 (NEPCO)",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "培训",
+      "绿色增长",
+      "能源转型"
+    ],
+    "scale": "中型",
+    "investment": "数百万美元",
+    "roi": "AI培训支持约旦绿色增长战略",
+    "summary": "NEPCO实施AI培训计划，支持约旦绿色增长战略和能源转型。",
+    "detail": "NEPCO实施AI培训计划，培训电力行业从业人员掌握AI技术。支持约旦绿色增长战略和能源转型。AI技术用于电网优化、可再生能源预测和能源效率提升。培训计划覆盖NEPCO全体员工。",
+    "source": "https://www.researchgate.net/publication/398874261_Sustainable_digital_transformation_in_the_energy_sector_The_role_of_artificial_intelligence_training_in_achieving_Jordan's_green_growth_strategy",
+    "tags": [
+      "AI",
+      "培训",
+      "绿色增长",
+      "能源转型"
+    ],
+    "confidence": "中"
   },
   {
     "id": "ro-transselectrica-002",
@@ -5680,6 +5968,164 @@
     "confidence": "高"
   },
   {
+    "id": "ph-meralco-001",
+    "title": "Meralco Itron智能电网升级",
+    "country": "菲律宾",
+    "company": "Meralco",
+    "year": 2025,
+    "tech": [
+      "智能电网",
+      "AMI",
+      "数字化",
+      "AI"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "Itron Gen5智能电网解决方案，支持菲律宾数字经济发展",
+    "summary": "菲律宾最大电力公司Meralco与Itron合作，部署Gen5智能电网解决方案。",
+    "detail": "Meralco（马尼拉电力公司）与Itron合作，部署Gen5智能电网解决方案。智能电网支持菲律宾推进数字经济。解决方案包括智能电表、通信网络和数据管理平台。AI分析用电数据，优化电网运行和故障检测。",
+    "source": "https://na.itron.com/w/meralco-collaborates-with-itron-to-enhance-smart-grid-journey",
+    "tags": [
+      "智能电网",
+      "AMI",
+      "数字化",
+      "AI"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "ph-meralco-002",
+    "title": "Meralco 2025 AI峰会数字化战略",
+    "country": "菲律宾",
+    "company": "Meralco",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "数字化",
+      "智能电网",
+      "数据平台"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "首次AI峰会，制定公司AI战略路线图",
+    "summary": "Meralco举办首次AI峰会，制定公司AI战略路线图，聚焦负责任AI使用和新技术。",
+    "detail": "Meralco举办首次AI峰会（Giga Summit 2025）。峰会制定公司AI战略路线图，聚焦负责任AI使用、新技术和数字化转型。Meralco的数字化战略基于七大支柱：数字客户、数字电网、数字员工、数字企业、数据平台与AI等。",
+    "source": "https://www.meralco.com.ph/sites/default/files/2025-06/014be0ac871a6b63e55e15f3ecea38cb.pdf",
+    "tags": [
+      "AI",
+      "数字化",
+      "智能电网",
+      "战略"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "ph-meralco-003",
+    "title": "Meralco Huawei智能电网灯塔项目",
+    "country": "菲律宾",
+    "company": "Meralco (Huawei合作)",
+    "year": 2025,
+    "tech": [
+      "智能电网",
+      "数字化",
+      "AI",
+      "IoT"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "Huawei+Meralco+SANXING智能电网灯塔项目，推广数字化转型最佳实践",
+    "summary": "Meralco与Huawei、SANXING合作启动智能电网灯塔项目，推广数字化转型最佳实践。",
+    "detail": "Huawei、Meralco和SANXING在菲律宾启动智能电网灯塔项目。项目打造可复制和可扩展的数字化转型最佳实践。智能电网技术包括IoT传感器、AI分析和数字化平台。项目作为菲律宾智能电网转型的标杆。",
+    "source": "https://vir.com.vn/huawei-meralco-and-sanxing-launch-smart-grid-solution-in-philippines-148006.html",
+    "tags": [
+      "智能电网",
+      "数字化",
+      "AI",
+      "IoT",
+      "灯塔项目"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "es-iberdrola-003",
+    "title": "Iberdrola AI数据中心能源23亿美元投资",
+    "country": "西班牙",
+    "company": "Iberdrola",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "数据中心",
+      "能源",
+      "数字化"
+    ],
+    "scale": "大型",
+    "investment": "23亿美元",
+    "roi": "马德里Sur数据中心144MW，AI优化能源供应",
+    "summary": "Iberdrola投资23亿美元建设数据中心能源项目，AI优化能源供应。",
+    "detail": "Iberdrola与Echelon合作投资23亿美元（21亿欧元）在西班牙建设数据中心综合体。首个项目是马德里Sur数据中心，装机容量144MW。AI优化数据中心的能源供应和调度。项目创造大量稳定的电力需求来源。",
+    "source": "https://enkiai.com/iberdrola-ai-initiatives-for-2025-key-projects-strategies-and-partnerships/",
+    "tags": [
+      "AI",
+      "数据中心",
+      "能源",
+      "数字化"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "es-iberdrola-004",
+    "title": "Iberdrola BCAM AI电网优化合作",
+    "country": "西班牙",
+    "company": "Iberdrola",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "电网优化",
+      "数据空间",
+      "数字化"
+    ],
+    "scale": "大型",
+    "investment": "数千万欧元",
+    "roi": "AI创新数据空间项目，优化电网运行和可再生能源集成",
+    "summary": "Iberdrola与BCAM合作推进AI创新数据空间项目，优化电网运行和可再生能源集成。",
+    "detail": "Iberdrola与BCAM（巴斯克人工智能中心）合作推进AI创新数据空间项目。项目在全球智能电网和西班牙数字议程2025框架下。AI优化电网运行和可再生能源集成。提升电网效率和可靠性。",
+    "source": "https://www.iberdrola.com/press-room/news/detail/iberdrola-and-bcam-will-collaborate-in-the-ai-innovation-data-space-project-to-optimise-grids",
+    "tags": [
+      "AI",
+      "电网优化",
+      "数据空间",
+      "数字化"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "es-iberdrola-005",
+    "title": "Iberdrola 2026-2028数字化投资16亿欧元",
+    "country": "西班牙",
+    "company": "Iberdrola",
+    "year": 2025,
+    "tech": [
+      "数字化",
+      "AI",
+      "创新",
+      "电网"
+    ],
+    "scale": "大型",
+    "investment": "16亿欧元",
+    "roi": "2025-2028年投资16亿欧元于研发创新和电气化",
+    "summary": "Iberdrola在2025年数字化峰会上宣布2025-2028年投资16亿欧元于研发创新和电气化。",
+    "detail": "Iberdrola在马德里数字化峰会上宣布2025-2028年投资16亿欧元于研发创新（R&D&I）和电气化。投资重点包括数字化、自动化和智能电网技术。提升电网可靠性和效率。推动西班牙能源转型。",
+    "source": "https://www.iberdrolaespana.com/press-room/news/digital-summit-2026-invest-innovation-electrification-2025-2028",
+    "tags": [
+      "数字化",
+      "AI",
+      "创新",
+      "电网",
+      "投资"
+    ],
+    "confidence": "高"
+  },
+  {
     "id": "es-iberdrola-001",
     "title": "Iberdrola 西班牙智能电网数字化",
     "country": "西班牙",
@@ -5888,6 +6334,85 @@
       "智能电网"
     ],
     "confidence": "高"
+  },
+  {
+    "id": "om-nama-001",
+    "title": "阿曼Nama数字孪生AI智能电网",
+    "country": "阿曼",
+    "company": "Nama Electricity Distribution Company",
+    "year": 2025,
+    "tech": [
+      "数字孪生",
+      "AI",
+      "智能电网",
+      "预测性维护"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "数字孪生实现实时监控和预测性维护，提升电力消费管理",
+    "summary": "阿曼Nama电力公司部署数字孪生AI智能电网，实现实时监控和预测性维护。",
+    "detail": "阿曼Nama电力公司推进数字孪生AI计划。数字孪生技术实现实时监控和预测性维护。AI显著提升电力消费管理。项目覆盖阿曼全国配电网。数字孪生模型模拟电网运行状态，提前预警潜在故障。",
+    "source": "https://www.mitsloanme.com/article/oman-advances-smart-grid-ambitions-with-digital-twin-ai-initiative/",
+    "tags": [
+      "数字孪生",
+      "AI",
+      "智能电网",
+      "预测性维护"
+    ],
+    "confidence": "中"
+  },
+  {
+    "id": "om-nama-002",
+    "title": "阿曼Nama 10亿里亚尔可再生能源智能电网转型",
+    "country": "阿曼",
+    "company": "Nama Group",
+    "year": 2025,
+    "tech": [
+      "可再生能源",
+      "智能电网",
+      "数字化",
+      "AI"
+    ],
+    "scale": "大型",
+    "investment": "10亿阿曼里亚尔",
+    "roi": "可再生能源项目+数字化转型，减少排放，提升电网可靠性",
+    "summary": "Nama Group宣布10亿阿曼里亚尔可再生能源和智能电网转型计划。",
+    "detail": "Nama Group宣布10亿阿曼里亚尔（约26亿美元）的可再生能源和智能电网转型计划。计划包括大规模可再生能源项目、数字化升级和智能电网建设。目标减少排放、提升电网可靠性和效率。AI用于电网调度和可再生能源预测。",
+    "source": "https://energyoman.net/nama-announces-ro1bn-transition-to-renewable-energy-smart-grid",
+    "tags": [
+      "可再生能源",
+      "智能电网",
+      "数字化",
+      "AI",
+      "10亿里亚尔"
+    ],
+    "confidence": "中"
+  },
+  {
+    "id": "om-nama-003",
+    "title": "阿曼Nama智能电表部署",
+    "country": "阿曼",
+    "company": "Nama Electricity Distribution Company",
+    "year": 2025,
+    "tech": [
+      "智能电表",
+      "AMI",
+      "数字化",
+      "IoT"
+    ],
+    "scale": "大型",
+    "investment": "数千万美元",
+    "roi": "智能电表覆盖主要用户，提升电网可视性和运营规划",
+    "summary": "阿曼Nama部署智能电表，提升电网稳定性和运营规划。",
+    "detail": "阿曼Nama电力公司大规模部署智能电表。智能电表实现用电数据实时采集和远程管理。技术增强电网稳定性，提升运营规划能力。支持可再生能源集成。IoT传感器覆盖配电网关键节点。",
+    "source": "https://www.linkedin.com/pulse/empowering-omans-energy-future-smart-metering-revolution-omantel-uotmf",
+    "tags": [
+      "智能电表",
+      "AMI",
+      "数字化",
+      "IoT"
+    ],
+    "confidence": "中"
   },
   {
     "id": "ae-dewa-002",
