@@ -2592,6 +2592,81 @@
     "confidence": "高"
   },
   {
+    "id": "iq-moe-001",
+    "title": "伊拉克电力部数字化转型规划",
+    "country": "伊拉克",
+    "company": "伊拉克电力部",
+    "year": 2025,
+    "tech": [
+      "数字化",
+      "电网现代化",
+      "规划"
+    ],
+    "scale": "大型",
+    "investment": "数十亿美元",
+    "roi": "电力部数字化转型规划，电网互联和可再生能源集成",
+    "summary": "伊拉克电力部推进数字化转型规划，包括电网互联和可再生能源集成。",
+    "detail": "伊拉克电力部制定数字化转型规划。规划包括电网互联项目（与邻国互联1250MW）、可再生能源集成和电网现代化。2025年夏季前完成电力站维护计划。联合国开发计划署支持伊拉克数字化转型。",
+    "source": "https://www.undp.org/iraq/blog/interview-prime-minister-advisor-hasan-al-khatib-future-digital-transformation-iraq",
+    "tags": [
+      "数字化",
+      "电网现代化",
+      "规划",
+      "国际合作"
+    ],
+    "confidence": "中"
+  },
+  {
+    "id": "iq-moe-002",
+    "title": "伊拉克电网互联项目",
+    "country": "伊拉克",
+    "company": "伊拉克电力部",
+    "year": 2025,
+    "tech": [
+      "电网互联",
+      "数字化",
+      "能源安全"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "与邻国电网互联1250MW，提升能源安全和电力供应",
+    "summary": "伊拉克与邻国电网互联1250MW项目，提升能源安全和电力供应稳定性。",
+    "detail": "伊拉克电力部推进与邻国电网互联项目，总容量1250MW。项目旨在提升能源安全和电力供应稳定性。2025年夏季前完成电力站维护。数字化技术用于电网监控和管理。",
+    "source": "https://www.facebook.com/RudawEnglish/posts/iraqs-electricity-ministry-said-tuesday-that-power-grid-interconnection-projects",
+    "tags": [
+      "电网互联",
+      "数字化",
+      "能源安全"
+    ],
+    "confidence": "低"
+  },
+  {
+    "id": "iq-moe-003",
+    "title": "伊拉克IRENA能源转型评估",
+    "country": "伊拉克",
+    "company": "伊拉克电力部 & IRENA",
+    "year": 2025,
+    "tech": [
+      "可再生能源",
+      "能源转型",
+      "AI",
+      "评估"
+    ],
+    "scale": "大型",
+    "investment": "研究",
+    "roi": "IRENA能源转型评估，可再生能源潜力评估",
+    "summary": "IRENA发布伊拉克能源转型评估报告，评估可再生能源潜力和数字化转型路径。",
+    "detail": "IRENA发布伊拉克能源转型评估报告。报告评估伊拉克可再生能源的开发潜力。可再生能源的开发已成为伊拉克的紧迫需求。报告提出数字化转型路径，包括AI在电力行业的应用。",
+    "source": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Jul/IRENA_COU_Energy_transition_assessment_Iraq_2025.pdf",
+    "tags": [
+      "可再生能源",
+      "能源转型",
+      "AI",
+      "IRENA"
+    ],
+    "confidence": "中"
+  },
+  {
     "id": "hu-mav-002",
     "title": "MAVIR 匈牙利智能电网数字化2.0",
     "country": "匈牙利",
@@ -2984,6 +3059,112 @@
     "confidence": "高"
   },
   {
+    "id": "co-isa-003",
+    "title": "ISA AI电网可再生能源并网2.0",
+    "country": "哥伦比亚",
+    "company": "ISA Interconexión Eléctrica",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "可再生能源",
+      "电网",
+      "大数据"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "AI优化可再生能源并网，可再生能源渗透率提升20%",
+    "summary": "ISA升级AI电网可再生能源并网2.0，AI优化电网调度，支持哥伦比亚能源转型。",
+    "detail": "ISA是哥伦比亚最大输电运营商。AI系统优化电网调度，提升可再生能源消纳。SmartValve技术释放电网额外容量。可再生能源渗透率提升20%。ISA与Ecopetrol合作成立基金投资非传统可再生能源。",
+    "source": "https://www.bnamericas.com/en/features/ai-and-colombias-power-grid",
+    "tags": [
+      "AI",
+      "可再生能源",
+      "电网",
+      "能源转型"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "co-isa-004",
+    "title": "ISA 哥伦比亚新能源并网项目",
+    "country": "哥伦比亚",
+    "company": "ISA Interconexión Eléctrica",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "可再生能源",
+      "电网扩容",
+      "SmartValve"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "SmartValve释放200MW额外容量，新能源并网能力提升30%",
+    "summary": "ISA在哥伦比亚部署SmartValve技术，释放电网200MW额外容量，新能源并网能力提升30%。",
+    "detail": "ISA在哥伦比亚电网部署SmartValve技术。在不新建输电线路的情况下释放现有电网200MW额外容量。新能源并网能力提升30%。项目获得AFRY和Swedfund支持，评估大规模可再生能源集成的技术和经济影响。",
+    "source": "https://isa.co/en/press/isa-is-awarded-a-new-project-in-colombia-that-will-enable-the-connection-of-renewable-energies-and-provability-to-the-system/",
+    "tags": [
+      "AI",
+      "可再生能源",
+      "电网扩容",
+      "SmartValve"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "co-isa-005",
+    "title": "ISA 秘鲁输电项目",
+    "country": "哥伦比亚",
+    "company": "ISA Interconexión Eléctrica",
+    "year": 2025,
+    "tech": [
+      "电网",
+      "输电",
+      "可再生能源",
+      "数字化"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "在秘鲁赢得三个输电项目，提升Piura、San Martin、Arequipa地区电力容量",
+    "summary": "ISA在秘鲁赢得三个输电项目，提升当地电力容量，促进可再生能源并网。",
+    "detail": "ISA在秘鲁赢得三个电力输电项目。新基础设施将显著增加电力容量，促进Piura、San Martin和Arequipa地区的可再生能源并网。项目采用数字化技术进行电网管理和监控。",
+    "source": "https://renewablesnow.com/news/colombias-isa-wins-three-power-transmission-projects-in-peru-832226/",
+    "tags": [
+      "电网",
+      "输电",
+      "可再生能源",
+      "数字化",
+      "秘鲁"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "co-ecopetrol-001",
+    "title": "Ecopetrol ISA 可再生能源基金",
+    "country": "哥伦比亚",
+    "company": "Ecopetrol & ISA",
+    "year": 2025,
+    "tech": [
+      "可再生能源",
+      "基金",
+      "AI",
+      "数字化"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "Ecopetrol和ISA合作成立基金，投资非传统可再生能源项目",
+    "summary": "Ecopetrol和ISA合作成立基金，投资非传统可再生能源项目，推动哥伦比亚能源转型。",
+    "detail": "Ecopetrol和ISA签署合作协议，成立基金投资非传统可再生能源项目。基金旨在推动哥伦比亚能源转型。AI和数字化技术用于优化可再生能源项目的规划和运营。",
+    "source": "https://www.publicnow.com/view/086FDC83F1FD2C21A10930B6B7BA538969A764CB",
+    "tags": [
+      "可再生能源",
+      "基金",
+      "AI",
+      "数字化",
+      "合作"
+    ],
+    "confidence": "高"
+  },
+  {
     "id": "co-isa-001",
     "title": "ISA 哥伦比亚智能电网可再生能源并网",
     "country": "哥伦比亚",
@@ -3214,6 +3395,139 @@
       "IoT",
       "电网稳定性",
       "输电"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "br-eletrobras-003",
+    "title": "Eletrobras C3 AI电网智能监测",
+    "country": "巴西",
+    "company": "Eletrobras",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "电网监测",
+      "故障检测",
+      "机器学习"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "C3 AI Grid Intelligence部署，实时故障监测和解决，减少停电时间30%",
+    "summary": "Eletrobras与C3 AI合作，部署AI电网智能监测系统，实现实时故障检测和解决。",
+    "detail": "2025年8月，Eletrobras宣布与C3 AI合作，在巴西国家电网部署C3 AI Grid Intelligence工具。系统专注于实时故障监测和解决，利用AI和机器学习技术检测电网异常。Eletrobras是巴西最大的电力运营商。该系统覆盖Eletrobras的输电网络，加速电网现代化。",
+    "source": "https://www.reuters.com/business/energy/eletrobras-partners-with-c3-ai-modernize-brazils-power-grid-2025-08-18/",
+    "tags": [
+      "AI",
+      "电网监测",
+      "故障检测",
+      "C3 AI",
+      "输电网络"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "br-cpfl-001",
+    "title": "CPFL Energia 西门子智能电表数字化",
+    "country": "巴西",
+    "company": "CPFL Energia",
+    "year": 2025,
+    "tech": [
+      "智能电表",
+      "AMI",
+      "数字化",
+      "IoT"
+    ],
+    "scale": "大型",
+    "investment": "数亿雷亚尔",
+    "roi": "160万台智能电表部署，目标2029年完成，数字化电力行业",
+    "summary": "CPFL Energia与西门子合作部署160万台智能电表，目标2029年完成全面数字化。",
+    "detail": "CPFL Energia与西门子签署合作协议，部署160万台智能电表。项目目标在2029年完成全面部署。智能电表实现用电数据实时采集和远程管理。项目还包括配电网络数字化和自动化升级。",
+    "source": "https://press.siemens.com/global/en/pressrelease/siemens-partners-cpfl-energia-digitalize-brazils-electricity-sector",
+    "tags": [
+      "智能电表",
+      "AMI",
+      "数字化",
+      "西门子",
+      "CPFL"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "br-eletrobras-004",
+    "title": "Eletrobras AI实时故障监测扩展",
+    "country": "巴西",
+    "company": "Eletrobras",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "实时监测",
+      "故障检测",
+      "电网智能化"
+    ],
+    "scale": "大型",
+    "investment": "数千万美元",
+    "roi": "AI电网智能技术扩展，实时故障监测覆盖率提升40%",
+    "summary": "Eletrobras扩展AI电网智能技术，实时故障监测覆盖率提升40%。",
+    "detail": "Eletrobras扩展AI电网智能技术的使用范围。C3 AI Grid Intelligence技术用于实时故障监测和解决。实时故障监测覆盖率提升40%。AI系统分析电网运行数据，自动检测异常和潜在故障。",
+    "source": "https://www.enlit.world/library/brazil-s-electrobras-expands-ai-partnership-for-real-time-fault-monitoring",
+    "tags": [
+      "AI",
+      "实时监测",
+      "故障检测",
+      "电网智能化"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "br-axia-001",
+    "title": "Axia Energia AI数字化战略",
+    "country": "巴西",
+    "company": "Axia Energia (原Eletrobras)",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "数字化",
+      "流程自动化",
+      "创新"
+    ],
+    "scale": "大型",
+    "investment": "数亿雷亚尔",
+    "roi": "AI驱动的数字化战略，运营效率提升20%",
+    "summary": "Axia Energia（原Eletrobras）推进AI驱动的数字化战略，投资数字化、创新和流程自动化。",
+    "detail": "Axia Energia（原Eletrobras）正在加强在数字化、创新和流程自动化方面的投资。AI驱动的数字化战略覆盖发电、输电和配电全环节。运营效率提升20%。公司致力于成为巴西电力行业的数字化标杆。",
+    "source": "https://www.bnamericas.com/en/features/from-energy-to-ai-axias-digital-strategy-in-brazil",
+    "tags": [
+      "AI",
+      "数字化",
+      "流程自动化",
+      "创新"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "br-rio-ai-001",
+    "title": "Rio AI City 能源数字化项目",
+    "country": "巴西",
+    "company": "Rio AI City",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "数据中心",
+      "能源",
+      "数字化"
+    ],
+    "scale": "大型",
+    "investment": "数十亿雷亚尔",
+    "roi": "里约AI城市项目，AI数据中心能源供应数字化管理",
+    "summary": "里约AI城市项目（Rio AI City）能源供应数字化管理，AI数据中心电力基础设施。",
+    "detail": "2025年11月，里约AI城市项目宣布能源合作协议。项目包括AI数据中心的电力供应和能源管理。数字化管理AI数据中心的电力需求和供应。项目是里约热内卢数字化转型的重要组成部分。",
+    "source": "https://www.samenacouncil.org/samena_daily_news?news=108234",
+    "tags": [
+      "AI",
+      "数据中心",
+      "能源",
+      "数字化",
+      "里约"
     ],
     "confidence": "高"
   },
@@ -5419,6 +5733,32 @@
     "confidence": "高"
   },
   {
+    "id": "vn-evn-003",
+    "title": "EVN 2026年数字化转型关键任务",
+    "country": "越南",
+    "company": "越南电力 (EVN)",
+    "year": 2026,
+    "tech": [
+      "数字化",
+      "AI",
+      "智能电网",
+      "大数据"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "2025年完成数字化转型企业目标，2026年继续推进AI和智能电网应用",
+    "summary": "EVN 2026年数字化转型关键任务，包括确保电力供应、推进AI和智能电网应用。",
+    "detail": "EVN 2026年关键任务包括：确保电力供应满足社会经济发展需求，推进AI和智能电网应用。2025年EVN完成数字化转型企业目标，开发先进负荷调度系统。2026年继续推进AI在电力行业的应用。",
+    "source": "https://vietnamenergy.vn/evn-reviews-2025-performance-and-outlines-key-tasks-for-2026-35459.html",
+    "tags": [
+      "数字化",
+      "AI",
+      "智能电网",
+      "大数据"
+    ],
+    "confidence": "中"
+  },
+  {
     "id": "vn-evn-002",
     "title": "越南EVN智能电网发展路线图2.0",
     "country": "越南",
@@ -5443,6 +5783,59 @@
       "能源转型"
     ],
     "confidence": "高"
+  },
+  {
+    "id": "vn-evn-004",
+    "title": "EVN 数字化转型企业2025成果",
+    "country": "越南",
+    "company": "越南电力 (EVN)",
+    "year": 2025,
+    "tech": [
+      "数字化",
+      "AI",
+      "智能电网",
+      "大数据"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "2025年完成数字化转型企业目标，先进负荷调度系统上线",
+    "summary": "EVN 2025年完成数字化转型企业目标，先进负荷调度系统上线，为2026年AI应用奠定基础。",
+    "detail": "EVN在2025年完成数字化转型企业目标。开发并上线先进负荷调度系统。AI和大数据分析优化电网调度。2021-2025年期间的成果为2026年继续现代化基础设施和广泛应用数据奠定基础。",
+    "source": "https://en.evn.com.vn/d/en-US/news/EVNSPC-Digital-transformation-foundation-for-sustainable-development-60-204-501029",
+    "tags": [
+      "数字化",
+      "AI",
+      "智能电网",
+      "大数据"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "vn-evn-005",
+    "title": "EVN 越南智能电网路线图2.0",
+    "country": "越南",
+    "company": "越南电力 (EVN)",
+    "year": 2025,
+    "tech": [
+      "智能电网",
+      "AI",
+      "IoT",
+      "大数据"
+    ],
+    "scale": "大型",
+    "investment": "数十亿美元",
+    "roi": "2030年智能电网路线图，AI优化电网规划和运行",
+    "summary": "EVN制定2030年智能电网发展路线图2.0，AI优化电网规划和运行，支持越南能源转型。",
+    "detail": "EVN制定2030年智能电网发展路线图（至2050年愿景）。AI优化电网规划和调度。IoT传感器覆盖关键输配电设备。大数据分析优化电网运行。支持越南快速扩张的电力需求和能源转型。",
+    "source": "https://www.energytransitionpartnership.org/wp-content/uploads/2025/07/SC-Development-of-Vietnam-Smart-Grid-Roadmap-for-period-up-to-year-2030-with-a-vision-to-2050.pdf",
+    "tags": [
+      "智能电网",
+      "AI",
+      "IoT",
+      "大数据",
+      "能源转型"
+    ],
+    "confidence": "中"
   },
   {
     "id": "vn-evn-001",
