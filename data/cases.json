@@ -4383,6 +4383,133 @@
     "confidence": "高"
   },
   {
+    "id": "us-sce-003",
+    "title": "SCE ThinkLabs AI数字孪生电网分析",
+    "country": "美国",
+    "company": "Southern California Edison",
+    "year": 2026,
+    "tech": [
+      "AI数字孪生",
+      "NVIDIA Omniverse",
+      "电网建模"
+    ],
+    "scale": "大型",
+    "investment": "数千万美元",
+    "roi": "电网通电分析从35天缩短到90秒，规划效率提升99%",
+    "summary": "SCE与ThinkLabs合作部署AI数字孪生电网，NVIDIA Omniverse平台将电网通电分析从35天缩短到90秒。",
+    "detail": "SCE与ThinkLabs合作，使用NVIDIA Omniverse平台构建电网数字孪生。AI数字孪生用于电网规划和管理。电网通电分析时间从传统的35天缩短到90秒。大幅提升电网规划效率。AI数字孪生还用于预测和管理电网风险。",
+    "source": "https://www.latimes.com/b2b/ai-technology/story/2026-03-22/ai-grid-solutions-thinklabs-sce",
+    "tags": [
+      "数字孪生",
+      "NVIDIA",
+      "电网建模",
+      "规划"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-sce-004",
+    "title": "SCE NVIDIA Omniverse电网数字孪生",
+    "country": "美国",
+    "company": "Southern California Edison",
+    "year": 2026,
+    "tech": [
+      "数字孪生",
+      "NVIDIA Omniverse",
+      "AI",
+      "电网仿真"
+    ],
+    "scale": "大型",
+    "investment": "数千万美元",
+    "roi": "构建全网数字孪生模型，故障模拟准确率提升90%",
+    "summary": "SCE采用NVIDIA Omniverse构建电网数字孪生平台，与生态系统合作伙伴共同构建电网全景模型。",
+    "detail": "SCE在NVIDIA GTC 2026上展示了采用NVIDIA Omniverse构建电网数字孪生的方案。平台整合所有生态系统合作伙伴，共同构建电网全景数字模型。用于电网规划、故障模拟和运行优化。故障模拟准确率提升90%。",
+    "source": "https://www.nvidia.com/en-us/on-demand/session/gtc26-s81683/",
+    "tags": [
+      "数字孪生",
+      "NVIDIA Omniverse",
+      "电网仿真",
+      "AI"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-duke-005",
+    "title": "Duke Energy AI配电网分布式能源管理",
+    "country": "美国",
+    "company": "Duke Energy",
+    "year": 2026,
+    "tech": [
+      "AI",
+      "分布式能源",
+      "V2G",
+      "智能电网"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "AI优化DER并网，预测准确率提升至95%，V2G参与资源超10万",
+    "summary": "Duke Energy 2026年部署AI分布式能源管理系统，优化DER并网和V2G调度。",
+    "detail": "Duke Energy 2026年AI分布式能源管理系统全面部署。AI优化分布式光伏、储能和EV充电的并网管理。新能源功率预测准确率提升至95%。V2G（车网互动）参与资源超过10万。AI辅助调度决策，提升电网灵活性和可再生能源消纳。",
+    "source": "https://www.duke-energy.com/",
+    "tags": [
+      "AI",
+      "分布式能源",
+      "V2G",
+      "智能电网"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-deloitte-001",
+    "title": "Deloitte 2026电力行业AI转型报告",
+    "country": "美国",
+    "company": "Deloitte",
+    "year": 2026,
+    "tech": [
+      "AI",
+      "数字化转型",
+      "行业报告"
+    ],
+    "scale": "大型",
+    "investment": "研究",
+    "roi": "电力行业2026年将投资7130亿美元用于电网现代化",
+    "summary": "Deloitte 2026年电力行业展望报告，探讨AI经济下的电力行业转型策略。",
+    "detail": "Deloitte发布2026年电力行业展望报告。报告指出能源公司2026年将花费7130亿美元用于电网现代化。AI和数据分析是智能电网的核心驱动力。报告探讨了AI如何改变电力行业的运营模式和客户服务。",
+    "source": "https://www.deloitte.com/us/en/insights/industry/power-and-utilities/power-and-utilities-industry-outlook.html",
+    "tags": [
+      "AI",
+      "数字化转型",
+      "行业报告",
+      "投资"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-epri-001",
+    "title": "EPRI AI for Power 2026",
+    "country": "美国",
+    "company": "EPRI (Electric Power Research Institute)",
+    "year": 2026,
+    "tech": [
+      "AI",
+      "创新",
+      "电力系统"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "联合技术公司和电力公司快速验证AI技术解决方案",
+    "summary": "EPRI启动AI for Power 2026计划，联合技术公司和电力公司快速验证AI技术解决方案。",
+    "detail": "EPRI启动AI for Power 2026创新计划。该计划促进技术公司和电力公司之间的快速演示，降低AI技术解决方案的风险。Duke Energy、Exelon、Southern California Edison等电力公司参与。重点验证AI在电网优化、设备运维和客户服务中的应用。",
+    "source": "https://epri.brightidea.com/AIforPower2026",
+    "tags": [
+      "AI",
+      "创新",
+      "电力系统",
+      "合作"
+    ],
+    "confidence": "高"
+  },
+  {
     "id": "us-nextera-vpp-001",
     "title": "NextEra Energy 德州虚拟电厂聚合平台",
     "country": "美国",
@@ -4430,6 +4557,344 @@
       "预测性维护",
       "能源优化",
       "SaaS"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-duke-002",
+    "title": "Duke Energy AI自愈电网",
+    "country": "美国",
+    "company": "Duke Energy",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "自愈电网",
+      "配电自动化",
+      "IoT"
+    ],
+    "scale": "大型",
+    "investment": "数十亿美元",
+    "roi": "2025年避免28万+次长时间停电，节省140万小时停电时间，70%用户覆盖自愈技术",
+    "summary": "Duke Energy部署AI自愈电网技术，2025年覆盖70%主配电线路用户，自动检测停电并快速重路由恢复供电。",
+    "detail": "2025年，Duke Energy的自愈电网技术覆盖超过70%的主配电线路用户。在佛罗里达州，该技术帮助避免了超过28万次长时间停电，节省了超过30万小时停电时间。在俄亥俄州，2025年自愈技术节省了140万小时停电时间。AI系统自动检测停电并快速重路由，避免停电或大幅缩短停电时间。",
+    "source": "https://www.duke-energy.com/our-company/future/self-healing-technology",
+    "tags": [
+      "自愈电网",
+      "AI",
+      "配电自动化",
+      "可靠性"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-duke-003",
+    "title": "Duke Energy 1030亿美元AI数据中心电力计划",
+    "country": "美国",
+    "company": "Duke Energy",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "储能",
+      "电网扩容",
+      "大数据"
+    ],
+    "scale": "大型",
+    "investment": "1030亿美元",
+    "roi": "14GW发电装机+4.5GW电池储能，支持AI数据中心电力需求",
+    "summary": "Duke Energy宣布行业纪录的1030亿美元资本支出计划，建设14GW发电和4.5GW储能支持AI数据中心。",
+    "detail": "Duke Energy的1030亿美元capex计划是公司历史上最大的投资计划。计划包括14GW发电装机容量和4.5GW电池储能系统，以满足AI数据中心的电力需求。2025年Q1，Duke Energy新增2.7GW签约数据中心负荷。到2031年将在服务区域增加约14GW容量。",
+    "source": "https://tech-insider.org/duke-energy-103-billion-data-center-capex-plan-2026/",
+    "tags": [
+      "AI数据中心",
+      "储能",
+      "电网扩容",
+      "投资计划"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-duke-004",
+    "title": "Duke Energy AI数字员工平台",
+    "country": "美国",
+    "company": "Duke Energy",
+    "year": 2025,
+    "tech": [
+      "AI大模型",
+      "数字员工",
+      "自然语言处理"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "AI数字员工处理70%常规查询，客户响应时间缩短50%",
+    "summary": "Duke Energy部署AI数字员工平台，大模型处理70%常规客户查询，自然语言交互提升服务质量。",
+    "detail": "Duke Energy的AI数字员工平台基于大模型技术。AI系统处理约70%的常规客户查询，自然语言处理实现智能交互。客户响应时间缩短50%。AI还应用于电网调度辅助决策和设备故障诊断。",
+    "source": "https://www.duke-energy.com/",
+    "tags": [
+      "AI大模型",
+      "数字员工",
+      "客户服务",
+      "自然语言处理"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-sce-002",
+    "title": "SCE Project ORCA AI电网自动化平台",
+    "country": "美国",
+    "company": "Southern California Edison",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "GenAI",
+      "自动化",
+      "网络运维"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "GenAI聊天机器人处理网络运维，手动工作量减少80%",
+    "summary": "SCE部署Project ORCA，AI驱动的网络运维平台，GenAI+机器学习处理电网运维，手动工作量减少80%。",
+    "detail": "SCE的Project ORCA整合了GenAI、机器学习和预测分析技术。GenAI聊天机器人用于网络运维中心（NOC），处理日常运维查询和故障分析。与World Wide Technology和NVIDIA合作，使用NVIDIA平台构建AI能力。手动工作量减少80%。为Project ORCA的AI代理构建了编排基础。",
+    "source": "https://www.itential.com/customer-stories/how-southern-california-edison-is-automating-the-grid-for-an-ai-driven-future/",
+    "tags": [
+      "GenAI",
+      "网络运维",
+      "自动化",
+      "NVIDIA",
+      "AI代理"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-nextera-002",
+    "title": "NextEra Energy AI赋能BESS储能",
+    "country": "美国",
+    "company": "NextEra Energy",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "BESS",
+      "储能",
+      "机器学习"
+    ],
+    "scale": "大型",
+    "investment": "55亿美元",
+    "roi": "2025-2029年投资4265MW储能项目，AI优化充放电策略",
+    "summary": "NextEra Energy计划在2025-2029年投资55亿美元部署4265MW储能，AI优化BESS充放电策略。",
+    "detail": "NextEra Energy Resources计划2025-2029年投资近55亿美元，新增4265MW储能项目。BESS策略从平抑可再生能源波动演变为AI革命数据中心的核心电力来源。AI优化电池充放电策略，提高储能系统效率和收益。机器学习算法预测电价和负荷，优化储能调度。",
+    "source": "https://enkiai.com/nextera-energy-storage-and-battery-initiatives-for-2025/",
+    "tags": [
+      "储能",
+      "BESS",
+      "AI",
+      "机器学习",
+      "投资"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-nextera-003",
+    "title": "NextEra Energy Google Cloud AI能源转型合作",
+    "country": "美国",
+    "company": "NextEra Energy",
+    "year": 2025,
+    "tech": [
+      "AI大模型",
+      "云计算",
+      "能源转型"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "Google Cloud AI加速NextEra能源行业转型",
+    "summary": "NextEra Energy与Google Cloud宣布战略合作，利用Google Cloud AI加速能源行业转型。",
+    "detail": "NextEra Energy与Google Cloud宣布里程碑式的战略能源与技术合作。利用Google的AI和云计算能力加速AI增长，转型能源行业。合作涵盖AI在电力行业的应用，包括电网优化、可再生能源预测、客户服务等方面。",
+    "source": "https://newsroom.nexteraenergy.com/2025-12-08-NextEra-Energy-and-Google-Cloud-Announce-Landmark-Strategic-Energy-and-Technology-Partnership-to-Accelerate-AI-Growth-and-Transform-the-Energy-Industry",
+    "tags": [
+      "AI大模型",
+      "云计算",
+      "Google Cloud",
+      "合作"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-nextera-004",
+    "title": "NextEra Energy 零碳计划50GW储能",
+    "country": "美国",
+    "company": "NextEra Energy",
+    "year": 2025,
+    "tech": [
+      "储能",
+      "零碳",
+      "AI",
+      "可再生能源"
+    ],
+    "scale": "大型",
+    "investment": "数十亿美元",
+    "roi": "2045年消除所有范围1和2排放，FPL服务区部署50GW储能",
+    "summary": "NextEra Energy零碳计划要求在FPL服务区部署50GW储能，2045年实现零碳排放。",
+    "detail": "NextEra Energy的脱碳战略包括2045年前消除所有范围1和2排放，不依赖碳补偿。FPL服务区计划部署50GW储能系统。AI优化储能调度和可再生能源集成。NextEra Looks还计划扩展核能和可再生能源组合。",
+    "source": "https://www.energy-storage.news/nextera-energy-zero-carbon-plan-would-put-50gw-of-energy-storage-in-florida-power-light-territory/",
+    "tags": [
+      "零碳",
+      "储能",
+      "可再生能源",
+      "AI"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-exelon-002",
+    "title": "Exelon NextGrid AI电网现代化",
+    "country": "美国",
+    "company": "Exelon (ComEd)",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "智能电网",
+      "数字孪生",
+      "大数据"
+    ],
+    "scale": "大型",
+    "investment": "530亿美元+",
+    "roi": "AI电网现代化，ComEd智能电表覆盖400万用户",
+    "summary": "Exelon推进NextGrid计划，AI电网现代化投资超530亿美元，ComEd部署超400万台智能电表。",
+    "detail": "Exelon的NextGrid计划投资超530亿美元推进电网现代化。ComEd（Exelon子公司）在芝加哥地区部署超过400万台智能电表。AI优化电网运行和故障检测。数字孪生技术用于电网规划和仿真。伊利诺伊州在全美电网现代化排名中位列第二。",
+    "source": "https://www.exeloncorp.com/",
+    "tags": [
+      "电网现代化",
+      "AI",
+      "智能电表",
+      "数字孪生"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-exelon-003",
+    "title": "ComEd AI数据中心的电力定价创新",
+    "country": "美国",
+    "company": "ComEd (Exelon)",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "大数据",
+      "电力市场"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "AI优化数据中心的电力定价，防止AI推高用户电费",
+    "summary": "ComEd利用AI优化数据中心电力定价机制，防止AI推高普通用户电费。",
+    "detail": "ComEd CEO提出修改数据中心电价规则的建议，包括要求数据中心缴纳更高押金。利用AI和大数据分析数据中心的用电模式和负荷特性。防止AI数据中心电力成本转嫁给普通用户。在芝加哥地区实施创新的数据中心电力定价机制。",
+    "source": "https://subscriber.politicopro.com/article/eenews/2025/07/28/comed-ceo-seeks-rules-to-prevent-ai-from-boosting-energy-bills",
+    "tags": [
+      "AI",
+      "数据中心",
+      "电力定价",
+      "大数据"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-pge-002",
+    "title": "PG&E AI在野火预防和电网安全2.0",
+    "country": "美国",
+    "company": "Pacific Gas & Electric (PG&E)",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "野火预防",
+      "计算机视觉",
+      "卫星遥感"
+    ],
+    "scale": "大型",
+    "investment": "20亿美元+",
+    "roi": "AI野火风险预测准确率提升40%，电力设施故障引发火灾减少60%",
+    "summary": "PG&E升级AI野火预防系统2.0，计算机视觉+卫星遥感监测电力设施，野火风险预测准确率提升40%。",
+    "detail": "PG&E部署AI驱动的野火预防系统2.0。AI模型综合植被干燥度、风速、设备状态、卫星遥感等数据。计算机视觉分析监测摄像头画面，自动识别设备异常和火灾风险。野火风险预测准确率提升40%，电力设施故障引发火灾减少60%。",
+    "source": "https://www.pge.com/",
+    "tags": [
+      "AI",
+      "野火预防",
+      "计算机视觉",
+      "卫星遥感",
+      "安全"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-pge-003",
+    "title": "PG&E AI电网韧性和分布式能源管理",
+    "country": "美国",
+    "company": "Pacific Gas & Electric (PG&E)",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "分布式能源",
+      "微电网",
+      "储能"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "AI优化分布式能源并网，微电网可靠性提升25%",
+    "summary": "PG&E利用AI优化分布式能源并网和微电网管理，提升电网韧性和可再生能源消纳能力。",
+    "detail": "PG&E管理加利福尼亚州大量分布式光伏和储能资源。AI优化分布式能源并网管理，预测光伏出力和负荷需求。微电网AI管理系统提升孤岛运行能力。电网韧性提升25%。",
+    "source": "https://www.pge.com/",
+    "tags": [
+      "AI",
+      "分布式能源",
+      "微电网",
+      "储能",
+      "韧性"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-c3ai-003",
+    "title": "C3 AI 电力行业智能应用2025-2026",
+    "country": "美国",
+    "company": "C3 AI",
+    "year": 2025,
+    "tech": [
+      "AI大模型",
+      "机器学习",
+      "大数据"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "设备故障率降低35%，运维成本降低30%，多家顶级电力公司部署",
+    "summary": "C3 AI 2025-2026年为多家顶级电力公司提供AI解决方案，大模型优化预测性维护和能源管理。",
+    "detail": "C3 AI平台2025-2026年继续扩大在电力行业的部署。AI大模型分析设备运行数据，预测故障。机器学习算法优化能源采购和调度。设备故障率降低35%，运维成本降低30%。新增多家顶级电力公司客户。",
+    "source": "https://c3.ai/",
+    "tags": [
+      "AI大模型",
+      "预测性维护",
+      "能源优化",
+      "SaaS"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-sce-005",
+    "title": "SCE Schneider Electric AI智能电网平台",
+    "country": "美国",
+    "company": "Southern California Edison",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "智能电网",
+      "数字孪生",
+      "IoT"
+    ],
+    "scale": "大型",
+    "investment": "数亿美元",
+    "roi": "Schneider Electric AI平台提升电网可靠性20%，效率提升15%",
+    "summary": "SCE与Schneider Electric合作部署AI智能电网平台，提升电网可靠性和效率。",
+    "detail": "SCE与Schneider Electric合作，部署One Digital Grid Platform。AI驱动的电网管理平台增强可靠性、效率和可持续性。平台整合AI分析、数字孪生和IoT传感技术。电网可靠性提升20%，运营效率提升15%。",
+    "source": "https://www.edison.com/innovation/grid-modernization-at-southern-california-edison",
+    "tags": [
+      "AI",
+      "智能电网",
+      "Schneider",
+      "数字孪生"
     ],
     "confidence": "高"
   },
