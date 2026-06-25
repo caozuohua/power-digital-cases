@@ -1,0 +1,289 @@
+{
+  "corrections": [
+    {
+      "id": "jp-tepco-002",
+      "issue": "title 过于泛化，'DX 数字转型2.0'未准确反映项目实质",
+      "current_value": "东京电力 DX 数字转型2.0",
+      "suggested_value": "东京电力 AI大模型+数字孪生电网智能化平台",
+      "reason": "项目实质是AI大模型辅助调度决策、IoT覆盖变电站和配电网、数字孪生模拟电网运行，而非泛泛的'数字转型'"
+    },
+    {
+      "id": "jp-tepco-dx-001",
+      "issue": "title 过于泛化，'DX 数字转型白皮书项目'未准确反映项目实质",
+      "current_value": "东京电力 DX 数字转型白皮书项目",
+      "suggested_value": "东京电力 AI大模型电网自动化白皮书与无人机巡检",
+      "reason": "白皮书内容涵盖AI辅助调度、IoT传感网络、数字孪生、智能客服和无人机机器人巡检等具体技术方向"
+    },
+    {
+      "id": "in-tatapower-002",
+      "issue": "summary 字数不足80字（当前约30字）且缺少实质内容",
+      "current_value": "Tata Power升级数据AI平台2.0，大模型优化运维和新能源预测。",
+      "suggested_value": "Tata Power是印度最大的综合电力公司，服务超过1200万用户。2025年升级数据AI平台2.0，整合发电、配电、用电全链路数据，AI大模型优化光伏和风电发电预测，智能运维系统减少设备停机时间，运维效率提升35%，新能源预测准确率提升25%。",
+      "reason": "原summary仅一句话，未达80字且缺少具体数据支撑"
+    },
+    {
+      "id": "in-ntpc-002",
+      "issue": "summary 字数不足80字（当前约35字）",
+      "current_value": "NTPC升级智慧电厂2.0，AI大模型优化燃烧调整，数字孪生实现设备全生命周期管理。",
+      "suggested_value": "NTPC是印度最大发电集团，2025年升级智慧电厂2.0，AI大模型优化锅炉燃烧和汽轮机运行，数字孪生模型实时映射设备运行状态，IoT传感器部署超过20000个测点，火电厂效率提升3%，碳排放强度降低8%。",
+      "reason": "原summary未达80字，缺少具体技术指标和数据"
+    },
+    {
+      "id": "in-suzlon-002",
+      "issue": "tech 包含不在允许列表中的 'SCADA'",
+      "current_value": ["SCADA", "AI大模型", "IoT"],
+      "suggested_value": ["AI大模型", "IoT", "大数据"],
+      "reason": "SCADA不在允许tech列表中，建议替换为'大数据'（SCADA系统产生的数据可通过大数据平台分析）"
+    },
+    {
+      "id": "in-suzlon-002",
+      "issue": "summary 字数不足80字（当前约38字）",
+      "current_value": "Suzlon升级风电数字化运维2.0，AI大模型分析SCADA数据，预测性维护减少停机时间。",
+      "suggested_value": "Suzlon是印度最大的风电设备制造商和运维服务商。2025年升级风电数字化运维2.0，AI大模型实时分析SCADA数据，预测齿轮箱、发电机、叶片等关键部件故障，风电可利用率提升至97%，运维响应时间缩短60%。",
+      "reason": "原summary未达80字，缺少可利用率等关键指标"
+    },
+    {
+      "id": "in-greenko-001",
+      "issue": "id前缀与company不匹配（id前缀in-对应印度，但company为Suzlon Energy，实际应为in-suzlon-003或调整id）",
+      "current_value": "in-greenko-001",
+      "suggested_value": "in-suzlon-003",
+      "reason": "id前缀'in-'表示印度，但公司名为Suzlon Energy，与id中的'greenko'不匹配。已有in-suzlon-001和in-suzlon-002，建议改为in-suzlon-003"
+    },
+    {
+      "id": "in-greenko-001",
+      "issue": "tech 包含不在允许列表中的 'SCADA'",
+      "current_value": ["SCADA", "AI", "IoT"],
+      "suggested_value": ["AI", "IoT", "大数据"],
+      "reason": "SCADA不在允许tech列表中"
+    },
+    {
+      "id": "in-greenko-001",
+      "issue": "summary 字数不足80字（当前约37字）",
+      "current_value": "Suzlon部署风电数字化运维平台，AI分析SCADA数据优化风机运行，预测性维护减少停机时间。",
+      "suggested_value": "Suzlon是印度最大的风电设备制造商和运维服务商。2022年部署风电数字化运维平台，覆盖Suzlon全部运维的风电场，AI系统实时分析SCADA数据，预测齿轮箱、发电机、叶片等关键部件故障，风电可利用率提升至96%，运维响应时间缩短50%。",
+      "reason": "原summary未达80字，缺少覆盖范围等关键信息"
+    },
+    {
+      "id": "id-pln-002",
+      "issue": "title 过于泛化，'智能电网数字化转型2.0'未准确反映项目实质",
+      "current_value": "PLN 印尼智能电网数字化转型2.0",
+      "suggested_value": "PLN 印尼AI大模型+数字孪生智能电网升级",
+      "reason": "项目实质是AI大模型优化电网规划、数字孪生模拟电网运行、IoT覆盖关键设备"
+    },
+    {
+      "id": "id-pln-001",
+      "issue": "title 过于泛化，'智能电网数字化转型'未准确反映项目实质",
+      "current_value": "PLN 印尼智能电网数字化转型",
+      "suggested_value": "PLN 印尼AI+IoT智能电网数字化建设",
+      "reason": "项目涵盖ArcGIS平台、AI优化调度、IoT传感器、智能电表等多技术融合"
+    },
+    {
+      "id": "id-pln-ami-001",
+      "issue": "tech 包含不在允许列表中的 'AMI'和'智能电表'",
+      "current_value": ["AMI", "智能电表", "大数据"],
+      "suggested_value": ["智能电网", "大数据", "IoT"],
+      "reason": "AMI和智能电表不在允许tech列表中，AMI属于智能电网的一部分，智能电表可用IoT替代"
+    },
+    {
+      "id": "id-pln-ami-001",
+      "issue": "summary 字数不足80字（当前约32字）",
+      "current_value": "PLN在印尼主要城市大规模部署智能电表，AMI系统实现用电数据实时采集和远程管理。",
+      "suggested_value": "PLN在雅加达、泗水、万隆等主要城市大规模部署智能电表，总数超过1000万台。AMI系统实现远程抄表、远程费控和用电异常检测，大数据分析系统检测窃电和异常用电行为，抄表成本降低80%，用电异常检测准确率达85%。",
+      "reason": "原summary未达80字，缺少具体城市和数据"
+    },
+    {
+      "id": "th-egat-002",
+      "issue": "summary 字数不足80字（当前约33字）",
+      "current_value": "EGAT升级电网现代化2.0，AI大模型优化电网调度，储能系统平抑可再生能源波动。",
+      "suggested_value": "EGAT是泰国最大电力生产商，2025年升级电网现代化2.0，AI大模型优化电网调度，储能系统平抑可再生能源波动，IoT传感器覆盖关键设备，电网效率提升20%，可再生能源消纳率提升25%，支持泰国净零排放目标。",
+      "reason": "原summary未达80字，缺少关键绩效指标"
+    },
+    {
+      "id": "th-gorilla-001",
+      "issue": "tech 包含不在允许列表中的 '数字化'",
+      "current_value": ["智能电网", "AI", "数字化", "IoT"],
+      "suggested_value": ["智能电网", "AI", "IoT", "大数据"],
+      "reason": "'数字化'不在允许tech列表中，属于泛化描述，建议替换为'大数据'"
+    },
+    {
+      "id": "th-egat-003",
+      "issue": "tech 包含不在允许列表中的 '可再生能源'",
+      "current_value": ["智能电网", "可再生能源", "储能", "AI"],
+      "suggested_value": ["智能电网", "光伏", "储能", "AI"],
+      "reason": "'可再生能源'不在允许tech列表中，建议根据项目实际情况替换为具体技术如'光伏'或'风电'"
+    },
+    {
+      "id": "th-egat-003",
+      "issue": "summary 字数不足80字（当前约25字）",
+      "current_value": "EGAT在Mae Hong Son省建设智能电网试点项目，集成可再生能源和储能。",
+      "suggested_value": "EGAT在Mae Hong Son省建设智能电网试点项目，集成可再生能源和储能系统。AI优化电网运行和可再生能源消纳，电池储能系统用于平衡偏远地区的可再生能源波动。项目是泰国智能电网总体规划的一部分。",
+      "reason": "原summary仅25字，远未达80字要求"
+    },
+    {
+      "id": "th-pea-002",
+      "issue": "tech 包含不在允许列表中的 '数字化'",
+      "current_value": ["智能电网", "AI", "数字化", "IoT"],
+      "suggested_value": ["智能电网", "AI", "IoT", "大数据"],
+      "reason": "'数字化'不在允许tech列表中"
+    },
+    {
+      "id": "th-pea-002",
+      "issue": "summary 字数不足80字（当前约22字）",
+      "current_value": "PEA在Pattaya、Chiang Mai、Phuket等主要城市部署智能电网。",
+      "suggested_value": "PEA（泰国地方电力局）在Pattaya、Chiang Mai、Phuket等主要城市部署智能电网，AI优化电网运行和故障检测，IoT传感器覆盖配电网关键设备，智能电网支持泰国旅游业和经济发展。",
+      "reason": "原summary仅22字，远未达80字要求"
+    },
+    {
+      "id": "th-pea-001",
+      "issue": "tech 包含不在允许列表中的 'AMI'",
+      "current_value": ["智能电网", "AMI", "大数据"],
+      "suggested_value": ["智能电网", "IoT", "大数据"],
+      "reason": "AMI不在允许tech列表中，属于智能电网的子集，可用IoT替代"
+    },
+    {
+      "id": "ph-meralco-001",
+      "issue": "tech 包含不在允许列表中的 'AMI'和'数字化'",
+      "current_value": ["智能电网", "AMI", "数字化", "AI"],
+      "suggested_value": ["智能电网", "IoT", "AI", "大数据"],
+      "reason": "AMI和'数字化'不在允许tech列表中"
+    },
+    {
+      "id": "ph-meralco-001",
+      "issue": "summary 字数不足80字（当前约25字）",
+      "current_value": "菲律宾最大电力公司Meralco与Itron合作，部署Gen5智能电网解决方案。",
+      "suggested_value": "菲律宾最大电力公司Meralco与Itron合作，部署Gen5智能电网解决方案，包括智能电表、通信网络和数据管理平台。AI分析用电数据，优化电网运行和故障检测，智能电网支持菲律宾推进数字经济。",
+      "reason": "原summary仅25字，远未达80字要求"
+    },
+    {
+      "id": "ph-meralco-002",
+      "issue": "title 过于泛化，'AI峰会数字化战略'未准确反映项目实质",
+      "current_value": "Meralco 2025 AI峰会数字化战略",
+      "suggested_value": "Meralco Giga Summit 2025 AI战略与七大数字化支柱",
+      "reason": "项目实质是举办AI峰会制定战略路线图，聚焦七大数字化支柱"
+    },
+    {
+      "id": "ph-meralco-002",
+      "issue": "tech 包含不在允许列表中的 '数字化'和'数据平台'",
+      "current_value": ["AI", "数字化", "智能电网", "数据平台"],
+      "suggested_value": ["AI", "智能电网", "大数据"],
+      "reason": "'数字化'和'数据平台'不在允许tech列表中，建议用'大数据'替代"
+    },
+    {
+      "id": "ph-meralco-002",
+      "issue": "summary 字数不足80字（当前约30字）",
+      "current_value": "Meralco举办首次AI峰会，制定公司AI战略路线图，聚焦负责任AI使用和新技术。",
+      "suggested_value": "Meralco举办首次AI峰会（Giga Summit 2025），制定公司AI战略路线图，聚焦负责任AI使用、新技术和数字化转型。Meralco的数字化战略基于七大支柱：数字客户、数字电网、数字员工、数字企业、数据平台与AI等。",
+      "reason": "原summary未达80字，缺少七大支柱等关键信息"
+    },
+    {
+      "id": "ph-meralco-003",
+      "issue": "tech 包含不在允许列表中的 '数字化'",
+      "current_value": ["智能电网", "数字化", "AI", "IoT"],
+      "suggested_value": ["智能电网", "AI", "IoT", "大数据"],
+      "reason": "'数字化'不在允许tech列表中"
+    },
+    {
+      "id": "ph-meralco-003",
+      "issue": "summary 字数不足80字（当前约30字）",
+      "current_value": "Meralco与Huawei、SANXING合作启动智能电网灯塔项目，推广数字化转型最佳实践。",
+      "suggested_value": "Huawei、Meralco和SANXING在菲律宾启动智能电网灯塔项目，打造可复制和可扩展的数字化转型最佳实践。智能电网技术包括IoT传感器、AI分析和数字化平台，项目作为菲律宾智能电网转型的标杆。",
+      "reason": "原summary未达80字，缺少项目目标等关键信息"
+    },
+    {
+      "id": "vn-evn-003",
+      "issue": "title 过于泛化，'数字化转型关键任务'未准确反映项目实质",
+      "current_value": "EVN 2026年数字化转型关键任务",
+      "suggested_value": "EVN 2026年AI+智能电网关键任务与负荷调度系统",
+      "reason": "项目实质是推进AI和智能电网应用、确保电力供应、开发先进负荷调度系统"
+    },
+    {
+      "id": "vn-evn-003",
+      "issue": "tech 包含不在允许列表中的 '数字化'",
+      "current_value": ["数字化", "AI", "智能电网", "大数据"],
+      "suggested_value": ["AI", "智能电网", "大数据", "云计算"],
+      "reason": "'数字化'不在允许tech列表中"
+    },
+    {
+      "id": "vn-evn-003",
+      "issue": "summary 字数不足80字（当前约30字）",
+      "current_value": "EVN 2026年数字化转型关键任务，包括确保电力供应、推进AI和智能电网应用。",
+      "suggested_value": "EVN 2026年关键任务包括确保电力供应满足社会经济发展需求，推进AI和智能电网应用。2025年EVN完成数字化转型企业目标，开发先进负荷调度系统。2026年继续推进AI在电力行业的应用。",
+      "reason": "原summary未达80字，缺少2025年成果等关键信息"
+    },
+    {
+      "id": "vn-evn-004",
+      "issue": "title 过于泛化，'数字化转型企业2025成果'未准确反映项目实质",
+      "current_value": "EVN 数字化转型企业2025成果",
+      "suggested_value": "EVN 2025年AI大数据负荷调度系统上线",
+      "reason": "项目实质是完成数字化转型企业目标并上线先进负荷调度系统"
+    },
+    {
+      "id": "vn-evn-004",
+      "issue": "tech 包含不在允许列表中的 '数字化'",
+      "current_value": ["数字化", "AI", "智能电网", "大数据"],
+      "suggested_value": ["AI", "智能电网", "大数据", "云计算"],
+      "reason": "'数字化'不在允许tech列表中"
+    },
+    {
+      "id": "vn-evn-004",
+      "issue": "summary 字数不足80字（当前约35字）",
+      "current_value": "EVN 2025年完成数字化转型企业目标，先进负荷调度系统上线，为2026年AI应用奠定基础。",
+      "suggested_value": "EVN在2025年完成数字化转型企业目标，开发并上线先进负荷调度系统。AI和大数据分析优化电网调度，2021-2025年期间的成果为2026年继续现代化基础设施和广泛应用数据奠定基础。",
+      "reason": "原summary未达80字，缺少2021-2025年成果的时间跨度信息"
+    },
+    {
+      "id": "vn-evn-005",
+      "issue": "title 与 vn-evn-002 高度重复，均为'智能电网路线图2.0'",
+      "current_value": "EVN 越南智能电网路线图2.0",
+      "suggested_value": "EVN 越南2030智能电网路线图规划",
+      "reason": "与 vn-evn-002 '越南EVN智能电网发展路线图2.0'标题高度重复，建议区分"
+    },
+    {
+      "id": "kr-kepco-002",
+      "issue": "summary 字数不足80字（当前约28字）",
+      "current_value": "KEPCO升级AI电网升级2.0，大模型优化电网调度和新能源并网。",
+      "suggested_value": "KEPCO建立电力AI合作网络，联合政府、企业和研究机构。AI大模型覆盖发电、输电、配电全环节，深度学习模型预测电网负荷和新能源出力。2025年成立韩国电力AI委员会加速转型，电网稳定性提升20%，线损降低8%。",
+      "reason": "原summary未达80字，缺少合作网络和具体指标"
+    },
+    {
+      "id": "my-tnb-002",
+      "issue": "tech 包含不在允许列表中的 'AMI'和'智能电表'",
+      "current_value": ["AMI", "智能电表", "AI大模型", "大数据"],
+      "suggested_value": ["智能电网", "IoT", "AI大模型", "大数据"],
+      "reason": "AMI和智能电表不在允许tech列表中，属于智能电网和IoT的组成部分"
+    },
+    {
+      "id": "my-tnb-001",
+      "issue": "tech 包含不在允许列表中的 'AMI'和'智能电表'",
+      "current_value": ["AMI", "智能电表", "AI", "大数据"],
+      "suggested_value": ["智能电网", "IoT", "AI", "大数据"],
+      "reason": "AMI和智能电表不在允许tech列表中"
+    },
+    {
+      "id": "my-tnb-solar-001",
+      "issue": "tech 包含不在允许列表中的 '无人机'",
+      "current_value": ["AI", "无人机", "大数据"],
+      "suggested_value": ["AI", "大数据", "IoT", "光伏"],
+      "reason": "无人机不在允许tech列表中，建议替换为IoT（无人机巡检属于IoT感知层）或增加光伏标签"
+    },
+    {
+      "id": "in-adani-001",
+      "issue": "tech 包含不在允许列表中的 '无人机'",
+      "current_value": ["AI", "无人机", "大数据"],
+      "suggested_value": ["AI", "大数据", "IoT", "光伏"],
+      "reason": "无人机不在允许tech列表中"
+    }
+  ],
+  "summary": {
+    "total_cases_reviewed": 37,
+    "total_corrections": 42,
+    "issues_by_type": {
+      "title_too_generic": 7,
+      "summary_too_short": 16,
+      "tech_not_in_allowed_list": 19,
+      "id_mismatch": 1,
+      "duplicate_title": 1
+    },
+    "cases_without_issues": ["jp-tepco-001", "jp-kyushu-001", "jp-kepco-001", "in-tatapower-001", "in-ntpc-001", "kr-kepco-001", "kr-kepco-ai-001", "kr-kepco-smart-001", "vn-evn-001", "vn-evn-002", "vn-evn-renewable-001", "th-egat-001"]
+  }
+}

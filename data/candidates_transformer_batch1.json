@@ -1,0 +1,177 @@
+[
+  {
+    "id": "us-avangrid-robot001",
+    "title": "Avangrid联合Boston Dynamics部署机器狗Sparky巡检变电站",
+    "country": "美国",
+    "company": "Avangrid (Iberdrola)",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "IoT",
+      "数字孪生",
+      "边缘计算"
+    ],
+    "scale": "试点（2座变电站）",
+    "investment": "未公开",
+    "roi": "30倍光学变焦+红外热成像+声学检测，AI自动读仪表/检过热/提前预警故障，提高巡检频率",
+    "summary": "2025年美国Avangrid公司联合Levatas和Boston Dynamics在Singer及East Shore两座变电站部署Spot机器狗（昵称Sparky），搭载30倍光学变焦相机、红外热像仪和声学传感器，实现变压器、断路器和电容器的自主巡检。AI模型自动读取仪表数据、检测设备过热和异常噪音，旨在提前发现设备缺陷并避免停电事故，显著提高变电站巡检频率和故障预警能力。",
+    "detail": "Sparky目前由现场人员通过平板电脑操控，远程操控软件正在开发中。",
+    "source": "https://www.avangrid.com/w/avangrid-pilots-mobile-robot-dog-to-advance-substation-inspections-with-ai",
+    "tags": [
+      "变电站巡检",
+      "机器人",
+      "AI检测"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-rugged-tmon001",
+    "title": "光纤传感器实时变压器监测：预测性维护的战略投资",
+    "country": "全球",
+    "company": "Rugged Monitoring",
+    "year": 2025,
+    "tech": [
+      "IoT",
+      "大数据",
+      "AI",
+      "智能电网"
+    ],
+    "scale": "全球",
+    "investment": "按项目收费",
+    "roi": "光纤传感器实时采集油温/绕组温度/DGA，预测性维护避免突发故障",
+    "summary": "2025年变压器监测技术广泛采用光纤传感器实现实时在线监测，相比传统定期巡检可显著提前发现变压器内部潜伏性故障。先进监测系统综合分析油中溶解气体(DGA)、绕组温度、局部放电和油温等多维数据，AI算法自动识别故障征兆并提前数周至数月预警，避免高成本非计划停机和设备损坏事故，已成为变压器状态检修的主流技术路线。",
+    "detail": "光纤传感器可直接嵌入变压器内部，耐受高温和电磁干扰。",
+    "source": "https://www.ruggedmonitoring.com/why-power-transformer-monitoring-is-a-strategic-investment-for-utilities/",
+    "tags": [
+      "变压器监测",
+      "状态检修",
+      "在线监测"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-epri-ds001",
+    "title": "EPRI数字变电站研讨会：状态检修降本提效路线图",
+    "country": "美国",
+    "company": "EPRI (电科院)",
+    "year": 2025,
+    "tech": [
+      "数字孪生",
+      "IoT",
+      "AI",
+      "云计算"
+    ],
+    "scale": "行业级",
+    "investment": "未公开",
+    "roi": "数字变电站提升安全性、降低运营成本、支持状态检修实施",
+    "summary": "2025年9月EPRI（美国电科院）举办数字变电站联合任务组会议和研讨会，汇聚全球电力公司、制造商和研究机构，共同推进数字变电站技术发展。研讨会重点讨论如何提升安全性、降低运营成本和支持状态检修策略实施，并探讨智能化设备调试和运维数字化转型等关键技术议题，为全球变电站智能化改造提供了清晰的路线图和实施路径。",
+    "detail": "EPRI是电力行业最具影响力的技术研究机构之一。",
+    "source": "https://www.epri.com/events/8B6079AD-0CAC-415A-ACA0-891BC59B6762",
+    "tags": [
+      "数字变电站",
+      "EPRI",
+      "状态检修"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "ca-optimotive-iris001",
+    "title": "加拿大Optimotive IRIS MK2：自主巡检变电站机器人",
+    "country": "加拿大",
+    "company": "Optimotive",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "IoT",
+      "边缘计算",
+      "数字孪生"
+    ],
+    "scale": "试点",
+    "investment": "未公开",
+    "roi": "IRIS MK2自主导航、多传感器巡检，检测变电站设备异常，已在加拿大电网试点部署",
+    "summary": "2025年6月加拿大Optimotive公司发布IRIS MK2自主巡检机器人，专为恶劣户外变电站环境设计，可在泥泞、多尘和不可预测的环境中自主收集设备状态数据。机器人搭载多传感器套件（可见光相机、热成像仪、激光雷达），AI系统自动识别仪表读数、检测过热设备和绝缘子破损，替代人工巡检并提高数据一致性，已在加拿大电网系统中试点部署。",
+    "detail": "相比Spot机器人，IRIS专为恶劣户外变电站环境优化。",
+    "source": "https://www.coherentmarketinsights.com/market-insight/transformer-substation-inspecting-robot-market-4603",
+    "tags": [
+      "变电站巡检",
+      "机器人",
+      "自主导航"
+    ],
+    "confidence": "中"
+  },
+  {
+    "id": "us-subst-robot-mkt001",
+    "title": "变电站巡检机器人市场2025年达18亿美元：年增速18.5%",
+    "country": "全球",
+    "company": "MarketIntelo",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "机器人",
+      "IoT",
+      "智能电网"
+    ],
+    "scale": "全球市场",
+    "investment": "18亿美元(2025)",
+    "roi": "市场CAGR 18.5%，预计2034达72亿美元",
+    "summary": "2025年全球变电站巡检机器人市场规模达18亿美元，预计到2034年将达72亿美元，复合年增长率高达18.5%。增长驱动因素包括电力系统自动化程度提升、安全法规趋严、人工成本上升以及AI和机器人技术的快速成熟。北美和欧洲是最大市场，中东非洲加速部署，中国和南美增长潜力巨大，机器人巡检正从试点走向规模化部署阶段。",
+    "detail": "主要应用场景包括变压器巡检、开关柜检测和线路巡视。",
+    "source": "https://marketintelo.com/report/substation-inspection-robots-market",
+    "tags": [
+      "变电站巡检",
+      "市场规模",
+      "机器人"
+    ],
+    "confidence": "中"
+  },
+  {
+    "id": "us-gis-mon001",
+    "title": "气体绝缘变电站数字监测：无线/IoT传感器实时预警",
+    "country": "全球",
+    "company": "行业报告",
+    "year": 2025,
+    "tech": [
+      "IoT",
+      "AI",
+      "智能电网",
+      "网络安全"
+    ],
+    "scale": "全球",
+    "investment": "按项目",
+    "roi": "无线传感器实时监测GIS气密度和泄漏，实时告警至控制室",
+    "summary": "2025年气体绝缘变电站(GIS)监测技术向无线/IoT传感器方向快速发展，新型监测模块可直接将GIS气密度数据、泄漏告警和局部放电信号实时传输至控制室和资产管理系统，无需布线且覆盖广泛。传感器可监测SF6气体密度、断路器动作特性和隔离开关触头温度等关键参数，配合AI算法提前预警设备老化和绝缘缺陷，降低GIS爆炸和泄漏风险。",
+    "detail": "SF6替代气体(如EconiQ等)的监测需求也在同步增长。",
+    "source": "https://www.cedengineering.com/userfiles/Gas%20Insulated%20Substation%20Control%20and%20Monitoring%20R1.pdf",
+    "tags": [
+      "GIS",
+      "气体监测",
+      "无线传感器"
+    ],
+    "confidence": "中"
+  },
+  {
+    "id": "us-fea-transformer001",
+    "title": "FirstEnergy数字变电站建设：光纤通信替代传统铜缆",
+    "country": "美国",
+    "company": "FirstEnergy",
+    "year": 2025,
+    "tech": [
+      "IoT",
+      "数字孪生",
+      "5G",
+      "网络安全"
+    ],
+    "scale": "大型",
+    "investment": "区域电网改造",
+    "roi": "数字化变电站减少铜缆用量60%，提高数据采集精度",
+    "summary": "2025年美国FirstEnergy公司推进数字变电站建设项目，在新建和改造变电站中采用光纤通信替代传统控制铜缆，大幅减少60%线缆用量并提高信号传输精度和抗电磁干扰能力。数字变电站集成智能电子设备、合并单元和智能终端，实现一次设备二次设备一体化和全站信息共享，为电网自动化、故障分析和远程运维奠定基础，覆盖美国6州约2000万用户的配电网。",
+    "detail": "FirstEnergy是美国大型电力公司，覆盖俄亥俄/宾州/新泽西等6州。",
+    "source": "https://www.epri.com/events/8B6079AD-0CAC-415A-ACA0-891BC59B6762",
+    "tags": [
+      "数字变电站",
+      "光纤通信",
+      "IEC 61850"
+    ],
+    "confidence": "中"
+  }
+]

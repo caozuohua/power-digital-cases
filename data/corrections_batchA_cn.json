@@ -1,0 +1,1070 @@
+{
+  "batch": "batchA_cn",
+  "description": "中国案例校对修正建议（前50条）",
+  "total_cn_cases": 96,
+  "audited_count": 50,
+  "corrections": [
+    {
+      "id": "cn-envision-008",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI电力系统', '绿氢', '绿氨'",
+          "suggestion": "将'AI电力系统'替换为'AI'（允许列表中有'AI'）；'绿氢'和'绿氨'不在允许列表中，可删除或替换为'储能'或'智慧能源'"
+        }
+      ]
+    },
+    {
+      "id": "cn-cnnc-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '核电', '华龙一号', '数字化', '智能运维'",
+          "suggestion": "'核电'不在允许列表中，可替换为'智慧能源'或'智能电网'；'华龙一号'是堆型名称非技术标签，建议删除；'数字化'过于宽泛，建议替换为'数字孪生'或'大数据'；'智能运维'不在允许列表中，建议删除"
+        }
+      ]
+    },
+    {
+      "id": "cn-cgn-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '核电', '华龙一号', '数字化', '智能建造'",
+          "suggestion": "同cn-cnnc-001，'核电'可替换为'智慧能源'；'华龙一号'建议删除；'数字化'建议替换为'数字孪生'；'智能建造'不在允许列表中，建议删除"
+        }
+      ]
+    },
+    {
+      "id": "cn-envision-009",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '光储一体化'",
+          "suggestion": "'光储一体化'不在允许列表中，建议替换为'储能'（允许列表中包含）"
+        }
+      ]
+    },
+    {
+      "id": "cn-envision-010",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '算电协同', '绿电聚合'",
+          "suggestion": "'算电协同'和'绿电聚合'不在允许列表中，建议删除或替换为'智慧能源'"
+        }
+      ]
+    },
+    {
+      "id": "cn-spic-ai-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI大模型'",
+          "suggestion": "'AI大模型'不在允许列表中，建议替换为'AI'（允许列表中包含）"
+        }
+      ]
+    },
+    {
+      "id": "cn-sgcc-ai-010",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI大模型'",
+          "suggestion": "建议替换为'AI'"
+        }
+      ]
+    },
+    {
+      "id": "cn-catl-007",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI大模型'",
+          "suggestion": "建议替换为'AI'"
+        }
+      ]
+    },
+    {
+      "id": "cn-sgcc-iot-005",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI大模型'",
+          "suggestion": "建议替换为'AI'"
+        }
+      ]
+    },
+    {
+      "id": "cn-csg-ai-013",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI大模型', '多模态', '知识图谱'",
+          "suggestion": "'AI大模型'→'AI'；'多模态'和'知识图谱'不在允许列表中，建议删除"
+        }
+      ]
+    },
+    {
+      "id": "cn-huanneng-009",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI大模型'",
+          "suggestion": "建议替换为'AI'"
+        }
+      ]
+    },
+    {
+      "id": "cn-datang-006",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI大模型'",
+          "suggestion": "建议替换为'AI'"
+        }
+      ]
+    },
+    {
+      "id": "cn-rosed-006",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI大模型'",
+          "suggestion": "建议替换为'AI'"
+        }
+      ]
+    },
+    {
+      "id": "cn-xd-006",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI大模型'",
+          "suggestion": "建议替换为'AI'"
+        }
+      ]
+    },
+    {
+      "id": "cn-dongfang-006",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI大模型'",
+          "suggestion": "建议替换为'AI'"
+        }
+      ]
+    },
+    {
+      "id": "cn-three-gorges-007",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI大模型'",
+          "suggestion": "建议替换为'AI'"
+        }
+      ]
+    },
+    {
+      "id": "vendor-nari-002",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '智能体平台', '瑞元', '信创'",
+          "suggestion": "'智能体平台'不在允许列表中，建议替换为'AI'；'瑞元'是产品名非技术标签，建议删除；'信创'不在允许列表中，建议删除"
+        }
+      ]
+    },
+    {
+      "id": "vendor-nari-003",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '微网', '组态化', '如意', '零碳园区'",
+          "suggestion": "'微网'不在允许列表中（允许列表为'微电网'），建议修正为'微电网'；'组态化'不在允许列表中，建议删除；'如意'是产品名，建议删除；'零碳园区'不在允许列表中，建议删除"
+        }
+      ]
+    },
+    {
+      "id": "vendor-zte-003",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '数字化', 'AI算力', '通信网络', '绿色低碳'",
+          "suggestion": "全部不在允许列表中。'数字化'→'数字孪生'；'AI算力'→'AI'；'通信网络'和'绿色低碳'不在允许列表中，建议删除"
+        },
+        {
+          "field": "summary",
+          "issue": "summary过短（仅26字），远低于100字要求",
+          "suggestion": "扩展summary，补充具体技术细节和项目规模"
+        }
+      ]
+    },
+    {
+      "id": "vendor-abb-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '故障预测', 'SSC600', '智慧中枢'",
+          "suggestion": "'故障预测'不在允许列表中，建议替换为'AI'；'SSC600'是产品名，建议删除；'智慧中枢'不在允许列表中，建议删除"
+        },
+        {
+          "field": "summary",
+          "issue": "summary过短（仅31字），远低于100字要求",
+          "suggestion": "扩展summary，补充技术细节和项目成效"
+        }
+      ]
+    },
+    {
+      "id": "cn-envision-002",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI大模型', '强化学习', '能源交易'",
+          "suggestion": "'AI大模型'→'AI'；'强化学习'和'能源交易'不在允许列表中，建议删除"
+        }
+      ]
+    },
+    {
+      "id": "cn-spic-hydrogen-002",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '绿氢'",
+          "suggestion": "'绿氢'不在允许列表中，建议替换为'智慧能源'或'储能'"
+        }
+      ]
+    },
+    {
+      "id": "cn-envision-003",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI大模型', '强化学习', '能源交易'",
+          "suggestion": "'AI大模型'→'AI'；'强化学习'和'能源交易'不在允许列表中，建议删除"
+        }
+      ]
+    },
+    {
+      "id": "cn-catl-002",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI大模型', '机器学习'",
+          "suggestion": "'AI大模型'→'AI'；'机器学习'不在允许列表中，建议删除或替换为'AI'"
+        }
+      ]
+    },
+    {
+      "id": "cn-vision-002",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI大模型'",
+          "suggestion": "建议替换为'AI'"
+        }
+      ]
+    },
+    {
+      "id": "cn-sgcc-ai-dispatch-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI大模型', '强化学习'",
+          "suggestion": "'AI大模型'→'AI'；'强化学习'不在允许列表中，建议删除"
+        }
+      ]
+    },
+    {
+      "id": "cn-csg-ai-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI大模型', '自然语言处理', '知识图谱'",
+          "suggestion": "'AI大模型'→'AI'；'自然语言处理'和'知识图谱'不在允许列表中，建议删除"
+        }
+      ]
+    },
+    {
+      "id": "cn-sgcc-digital-001",
+      "issues": [
+        {
+          "field": "title",
+          "issue": "title为'国家电网数字化转型综合示范区'，过于泛泛，'数字化转型'用词不够具体",
+          "suggestion": "建议改为更具体的标题，如'国家电网AI+数字孪生综合示范区'或'国家电网5G+智能电网综合示范区'"
+        },
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI大模型'",
+          "suggestion": "建议替换为'AI'"
+        }
+      ]
+    },
+    {
+      "id": "cn-csg-new-001",
+      "issues": [
+        {
+          "field": "title",
+          "issue": "title为'南方电网新型电力系统数字化示范区'，'数字化'用词过于泛泛",
+          "suggestion": "建议改为'南方电网AI+区块链源网荷储示范区'或类似更具体的标题"
+        }
+      ]
+    },
+    {
+      "id": "cn-catl-smart-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "tech中'AI'在允许列表中，但summary仅48字，远低于100字",
+          "suggestion": "summary过短，需扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-spic-nuclear-002",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AR/VR'",
+          "suggestion": "'AR/VR'不在允许列表中，建议删除"
+        }
+      ]
+    },
+    {
+      "id": "cn-envision-storage-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI大模型', '强化学习', '能源交易'",
+          "suggestion": "'AI大模型'→'AI'；'强化学习'和'能源交易'不在允许列表中，建议删除"
+        }
+      ]
+    },
+    {
+      "id": "cn-csg-ai-002",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary仅46字，低于100字要求",
+          "suggestion": "需扩展至100字以上，补充更多技术细节"
+        }
+      ]
+    },
+    {
+      "id": "cn-csg-vpp-002",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary仅43字，低于100字要求",
+          "suggestion": "需扩展至100字以上，补充更多技术细节"
+        }
+      ]
+    },
+    {
+      "id": "cn-sgcc-ai-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI大模型', '深度学习'",
+          "suggestion": "'AI大模型'→'AI'；'深度学习'不在允许列表中，建议删除"
+        }
+      ]
+    },
+    {
+      "id": "cn-csg-ai-003",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI大模型', '深度学习', '卫星遥感'",
+          "suggestion": "'AI大模型'→'AI'；'深度学习'和'卫星遥感'不在允许列表中，建议删除"
+        }
+      ]
+    },
+    {
+      "id": "cn-csg-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约80字，略低于100字要求",
+          "suggestion": "建议扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-huadian-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约75字，略低于100字要求",
+          "suggestion": "建议扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-spic-nuclear-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约72字，略低于100字要求",
+          "suggestion": "建议扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-csg-digital-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约80字，略低于100字要求",
+          "suggestion": "建议扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-sgcc-vpp-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约78字，略低于100字要求",
+          "suggestion": "建议扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-spic-offshore-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约68字，低于100字要求",
+          "suggestion": "需扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-huanneng-wind-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '无人机'",
+          "suggestion": "'无人机'不在允许列表中，建议删除"
+        },
+        {
+          "field": "summary",
+          "issue": "summary约72字，低于100字要求",
+          "suggestion": "需扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-heneng-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约75字，略低于100字要求",
+          "suggestion": "建议扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-rosed-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '无人机'",
+          "suggestion": "'无人机'不在允许列表中，建议删除"
+        },
+        {
+          "field": "summary",
+          "issue": "summary约70字，低于100字要求",
+          "suggestion": "需扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-sgcc-iot-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约72字，略低于100字要求",
+          "suggestion": "建议扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-spic-hydrogen-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约65字，低于100字要求",
+          "suggestion": "需扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-catl-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约72字，略低于100字要求",
+          "suggestion": "建议扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-huanneng-hydrogen-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约68字，低于100字要求",
+          "suggestion": "需扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-sinopec-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约72字，略低于100字要求",
+          "suggestion": "建议扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-spic-storage-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约68字，低于100字要求",
+          "suggestion": "需扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-vision-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约72字，略低于100字要求",
+          "suggestion": "建议扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-dongfang-nuclear-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约78字，略低于100字要求",
+          "suggestion": "建议扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-xd-smart-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约72字，略低于100字要求",
+          "suggestion": "建议扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-heneng-offshore-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约65字，低于100字要求",
+          "suggestion": "需扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-rosed-solar-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '无人机'",
+          "suggestion": "'无人机'不在允许列表中，建议删除"
+        },
+        {
+          "field": "summary",
+          "issue": "summary约72字，略低于100字要求",
+          "suggestion": "建议扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-three-gorges-003",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'BIM', '智能建造'",
+          "suggestion": "'BIM'和'智能建造'不在允许列表中，建议替换为'数字孪生'或删除"
+        }
+      ]
+    },
+    {
+      "id": "cn-sgcc-robot-002",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '无人机'",
+          "suggestion": "'无人机'不在允许列表中，建议删除"
+        }
+      ]
+    },
+    {
+      "id": "cn-csg-vpp-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约68字，低于100字要求",
+          "suggestion": "需扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-spic-wind-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'SCADA'",
+          "suggestion": "'SCADA'不在允许列表中，建议删除"
+        }
+      ]
+    },
+    {
+      "id": "cn-huadian-hydrogen-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约60字，低于100字要求",
+          "suggestion": "需扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-datang-solar-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '无人机'",
+          "suggestion": "'无人机'不在允许列表中，建议删除"
+        },
+        {
+          "field": "summary",
+          "issue": "summary约65字，低于100字要求",
+          "suggestion": "需扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-sinopec-smart-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约72字，略低于100字要求",
+          "suggestion": "建议扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-vision-green-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约65字，低于100字要求",
+          "suggestion": "需扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-sgcc-smart-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '机器人'",
+          "suggestion": "'机器人'不在允许列表中，建议替换为'AI'或'智能电网'"
+        }
+      ]
+    },
+    {
+      "id": "cn-csg-digital-002",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约72字，略低于100字要求",
+          "suggestion": "建议扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-huanneng-carbon-002",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约72字，略低于100字要求",
+          "suggestion": "建议扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-sgcc-ev-002",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约70字，低于100字要求",
+          "suggestion": "需扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-sgcc-green-002",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约72字，略低于100字要求",
+          "suggestion": "建议扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-spic-solar-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '机器视觉'",
+          "suggestion": "'机器视觉'不在允许列表中，建议替换为'AI'"
+        }
+      ]
+    },
+    {
+      "id": "cn-huadian-wind-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'SCADA'",
+          "suggestion": "'SCADA'不在允许列表中，建议删除"
+        }
+      ]
+    },
+    {
+      "id": "cn-datang-hydrogen-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约58字，低于100字要求",
+          "suggestion": "需扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-sgcc-robot-003",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '机器人'",
+          "suggestion": "'机器人'不在允许列表中，建议替换为'AI'或'智能电网'"
+        }
+      ]
+    },
+    {
+      "id": "cn-csg-digital-003",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '无人机'",
+          "suggestion": "'无人机'不在允许列表中，建议删除"
+        }
+      ]
+    },
+    {
+      "id": "cn-spic-storage-002",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约72字，略低于100字要求",
+          "suggestion": "建议扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-sgcc-smart-002",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约65字，低于100字要求",
+          "suggestion": "需扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-huanneng-storage-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约68字，低于100字要求",
+          "suggestion": "需扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-huanneng-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI预测性维护'",
+          "suggestion": "'AI预测性维护'不在允许列表中，建议替换为'AI'或'AI'+'数字孪生'"
+        }
+      ]
+    },
+    {
+      "id": "cn-spic-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '无人机', '大数据分析'",
+          "suggestion": "'无人机'不在允许列表中，建议删除；'大数据分析'→'大数据'"
+        }
+      ]
+    },
+    {
+      "id": "cn-datang-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '远程监控'",
+          "suggestion": "'远程监控'不在允许列表中，建议替换为'IoT'或'智能电网'"
+        }
+      ]
+    },
+    {
+      "id": "cn-sgcc-robot-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '机器人'",
+          "suggestion": "'机器人'不在允许列表中，建议替换为'AI'或'智能电网'"
+        }
+      ]
+    },
+    {
+      "id": "cn-huanneng-carbon-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约70字，低于100字要求",
+          "suggestion": "需扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-longi-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '机器视觉', 'MES'",
+          "suggestion": "'机器视觉'→'AI'；'MES'不在允许列表中，建议删除"
+        }
+      ]
+    },
+    {
+      "id": "cn-xd-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约68字，低于100字要求",
+          "suggestion": "需扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-pidi-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '机器视觉'",
+          "suggestion": "'机器视觉'→'AI'"
+        }
+      ]
+    },
+    {
+      "id": "cn-dongfang-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约72字，略低于100字要求",
+          "suggestion": "建议扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-three-gorges-002",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'BIM', '智能建造'",
+          "suggestion": "'BIM'和'智能建造'不在允许列表中，建议替换为'数字孪生'或删除"
+        }
+      ]
+    },
+    {
+      "id": "cn-sgcc-ev-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约72字，略低于100字要求",
+          "suggestion": "建议扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-vision-os-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约68字，低于100字要求",
+          "suggestion": "需扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-sgcc-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AI调度'",
+          "suggestion": "'AI调度'不在允许列表中，建议替换为'AI'或'智能电网'"
+        }
+      ]
+    },
+    {
+      "id": "cn-changjiang-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约72字，略低于100字要求",
+          "suggestion": "建议扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-ntpc-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: '无人机'",
+          "suggestion": "'无人机'不在允许列表中，建议删除"
+        }
+      ]
+    },
+    {
+      "id": "cn-three-gorges-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'BIM', '智能建造'",
+          "suggestion": "'BIM'和'智能建造'不在允许列表中，建议替换为'数字孪生'或删除"
+        }
+      ]
+    },
+    {
+      "id": "cn-sgcc-green-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约72字，略低于100字要求",
+          "suggestion": "建议扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-envision-001",
+      "issues": [
+        {
+          "field": "summary",
+          "issue": "summary约78字，略低于100字要求",
+          "suggestion": "建议扩展至100字以上"
+        }
+      ]
+    },
+    {
+      "id": "cn-sgcc-metering-001",
+      "issues": [
+        {
+          "field": "tech",
+          "issue": "包含不允许的tech标签: 'AMI', '智能电表'",
+          "suggestion": "'AMI'和'智能电表'不在允许列表中，建议替换为'智能电网'或'大数据'"
+        },
+        {
+          "field": "summary",
+          "issue": "summary约58字，低于100字要求",
+          "suggestion": "需扩展至100字以上"
+        }
+      ]
+    }
+  ],
+  "summary_stats": {
+    "total_audited": 50,
+    "cases_with_tech_issues": 38,
+    "cases_with_short_summary": 32,
+    "cases_with_title_issues": 2,
+    "cases_with_year_issues": 0,
+    "cases_with_confidence_issues": 0
+  },
+  "common_issues": {
+    "illegal_tech_tags": {
+      "AI大模型": "出现频次最高，约25处，应统一替换为'AI'",
+      "无人机": "出现约7处，不在允许列表中",
+      "数字化": "出现约5处，过于宽泛，应替换为'数字孪生'等具体技术",
+      "强化学习": "出现约3处，不在允许列表中",
+      "绿氢": "出现约3处，不在允许列表中",
+      "BIM": "出现约3处，不在允许列表中",
+      "智能建造": "出现约3处，不在允许列表中",
+      "SCADA": "出现约2处，不在允许列表中",
+      "机器人": "出现约3处，不在允许列表中",
+      "机器视觉": "出现约3处，不在允许列表中",
+      "能源交易": "出现约3处，不在允许列表中",
+      "深度学习": "出现约2处，不在允许列表中",
+      "AI预测性维护": "出现1处，不在允许列表中",
+      "AI调度": "出现1处，不在允许列表中",
+      "大数据分析": "出现1处，应改为'大数据'",
+      "远程监控": "出现1处，不在允许列表中",
+      "AI算力": "出现1处，不在允许列表中",
+      "通信网络": "出现1处，不在允许列表中",
+      "绿色低碳": "出现1处，不在允许列表中",
+      "智能体平台": "出现1处，不在允许列表中",
+      "瑞元": "出现1处，产品名非技术标签",
+      "信创": "出现1处，不在允许列表中",
+      "微网": "出现1处，应为'微电网'",
+      "组态化": "出现1处，不在允许列表中",
+      "如意": "出现1处，产品名非技术标签",
+      "零碳园区": "出现1处，不在允许列表中",
+      "故障预测": "出现1处，不在允许列表中",
+      "SSC600": "出现1处，产品名非技术标签",
+      "智慧中枢": "出现1处，不在允许列表中",
+      "多模态": "出现1处，不在允许列表中",
+      "知识图谱": "出现2处，不在允许列表中",
+      "自然语言处理": "出现1处，不在允许列表中",
+      "卫星遥感": "出现1处，不在允许列表中",
+      "AI电力系统": "出现1处，不在允许列表中",
+      "绿氨": "出现1处，不在允许列表中",
+      "算电协同": "出现1处，不在允许列表中",
+      "绿电聚合": "出现1处，不在允许列表中",
+      "光储一体化": "出现1处，不在允许列表中",
+      "AR/VR": "出现1处，不在允许列表中",
+      "MES": "出现1处，不在允许列表中",
+      "AMI": "出现1处，不在允许列表中",
+      "智能电表": "出现1处，不在允许列表中",
+      "电网互联": "出现1处，不在允许列表中",
+      "能源安全": "出现1处，不在允许列表中",
+      "可再生能源": "出现1处，不在允许列表中",
+      "能源转型": "出现1处，不在允许列表中",
+      "评估": "出现1处，非技术标签",
+      "规划": "出现1处，非技术标签"
+    },
+    "short_summary": "约32条案例summary低于100字要求，大部分在58-80字之间，需扩展补充技术细节和项目成效",
+    "title_issues": "2条案例title过于泛泛使用'数字化转型'，建议改为更具体的技术描述"
+  }
+}
