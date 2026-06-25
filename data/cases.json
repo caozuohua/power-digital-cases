@@ -7617,5 +7617,404 @@
       "智能运维"
     ],
     "confidence": "中"
+  },
+  {
+    "id": "us-ausenergy-dr001",
+    "title": "奥斯汀储能需求响应项目创纪录：削减峰值负荷57MW",
+    "country": "美国",
+    "company": "Austin Energy",
+    "year": 2025,
+    "tech": [
+      "需求侧管理",
+      "大数据",
+      "AI"
+    ],
+    "scale": "大型",
+    "investment": "未公开",
+    "roi": "峰值削减57MW（供1.4万户），商业客户参与增长30%，900个点位响应率6%，目标2027年扩至78MW",
+    "summary": "2025年美国奥斯汀能源公司需求响应项目创历史记录，通过分时电价与智能调控措施，在高峰时段成功削减平均峰值负荷57兆瓦，相当于为超过1.4万户家庭供电。商业客户参与度激增30%，约900个用电点位平均响应率达6%，奥斯汀市全部195个公共机构全面参与商业需求响应计划，为城市电网韧性提供重要支撑。",
+    "detail": "峰值削减57MW（供1.4万户），商业客户参与增长30%，900个点位响应率6%，目标2027年扩至78MW",
+    "source": "https://austinenergy.com/about/news/news-releases/2026/Austin-Energys-Demand-Response-program-delivers-record-results-in-2025",
+    "tags": [
+      "需求侧管理"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-doe-vpp001",
+    "title": "美国能源部虚拟电厂规模化目标：2030年80-160GW",
+    "country": "美国",
+    "company": "US Department of Energy",
+    "year": 2025,
+    "tech": [
+      "虚拟电厂",
+      "储能",
+      "大数据",
+      "AI"
+    ],
+    "scale": "大型",
+    "investment": "未公开",
+    "roi": "VPP调峰成本比燃气调峰低40%+，投运<6个月，投资<100万美元，ConEdison推迟12亿美元变电站投资",
+    "summary": "2025年美国能源部更新虚拟电厂商业化路径报告，明确2030年VPP规模化目标为80-160GW（占峰值负荷10%-20%）。当前北美VPP容量33GW，VPP调峰成本比传统燃气调峰机组低40%以上，基本VPP可在6个月内投运且投资低于100万美元。ConEdison通过VPP推迟12亿美元变电站升级，成为分布式资源替代传统基建的标杆。",
+    "detail": "VPP调峰成本比燃气调峰低40%+，投运<6个月，投资<100万美元，ConEdison推迟12亿美元变电站投资",
+    "source": "https://www.smartenergydecisions.com/wp-content/uploads/2025/04/liftoff_doe_virtualpowerplants2025update.pdf",
+    "tags": [
+      "营销"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "au-aemc-sm001",
+    "title": "澳洲强制智能电表全覆盖：2030前完成部署",
+    "country": "澳大利亚",
+    "company": "AEMC",
+    "year": 2025,
+    "tech": [
+      "智能电网",
+      "IoT",
+      "大数据"
+    ],
+    "scale": "大型",
+    "investment": "未公开",
+    "roi": "56%电表已远程读取(维州99%)，减少人工成本，改善故障响应",
+    "summary": "2024年11月澳洲能源市场委员会宣布新规，要求2030年前在全国电力市场（NEM）全面部署智能电表，2025年12月起启动替换工程。新规目标包括降低人工抄表成本、加速故障定位恢复、支持分布式光伏储能电动车接入。禁止向用户收取安装前置成本，要求电价变更需客户明确知情同意，确保智能电表技术红利惠及全部用户群体。",
+    "detail": "56%电表已远程读取(维州99%)，减少人工成本，改善故障响应",
+    "source": "https://www.energy.gov.au/news/smart-meter-rollout-turned-2025",
+    "tags": [
+      "营销"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-coned-vpp001",
+    "title": "联合爱迪生VPP替代传统变电站扩容：节省10亿美元",
+    "country": "美国",
+    "company": "Consolidated Edison",
+    "year": 2025,
+    "tech": [
+      "虚拟电厂",
+      "需求侧管理",
+      "储能"
+    ],
+    "scale": "大型",
+    "investment": "未公开",
+    "roi": "2亿投资替代12亿变电站扩建，净节省10亿",
+    "summary": "2025年美国联合爱迪生公司采用虚拟电厂方案，通过聚合分布式能源资源（屋顶光伏、储能电池、柔性负荷），仅投入2亿美元即推迟了原本需12亿美元的变电站扩建项目，净资本节省约10亿美元，成为VPP经济性替代传统基础设施投资的标杆案例，证明分布式资源聚合在大型城市电网中的经济价值。",
+    "detail": "2亿投资替代12亿变电站扩建，净节省10亿",
+    "source": "https://www.smartenergydecisions.com/wp-content/uploads/2025/04/liftoff_doe_virtualpowerplants2025update.pdf",
+    "tags": [
+      "需求侧管理"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-pge-dr-ev001",
+    "title": "PG&E需求响应与V2G双轨并进",
+    "country": "美国",
+    "company": "PG&E",
+    "year": 2025,
+    "tech": [
+      "需求侧管理",
+      "IoT",
+      "AI",
+      "智能电网"
+    ],
+    "scale": "大型",
+    "investment": "未公开",
+    "roi": "需求响应峰值削减显著，V2G试点反向放电换账单积分",
+    "summary": "2025年PG&E（太平洋煤气电气）需求响应计划面向居民和商业用户双轨扩展。居民侧通过智能电表和Power Partner EV项目让电动车车主在高峰时段暂停或降速充电换取账单积分。商业侧通过分时电价和直接负荷控制项目激励减少高峰用电，为电网提供灵活调节能力，是加州高比例可再生能源消纳的关键配套机制。",
+    "detail": "需求响应峰值削减显著，V2G试点反向放电换账单积分",
+    "source": "https://www.pge.com/en/save-energy-and-money/energy-saving-programs/demand-response-programs.html",
+    "tags": [
+      "需求侧管理"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-cpuc-sdcp001",
+    "title": "圣地亚哥社区光储计划惠及1600户低收入家庭",
+    "country": "美国",
+    "company": "San Diego Community Power",
+    "year": 2025,
+    "tech": [
+      "光伏",
+      "储能",
+      "大数据"
+    ],
+    "scale": "大型",
+    "investment": "未公开",
+    "roi": "7.3MW光储能，500万美元资源节约价值，50%预算用于弱势社区",
+    "summary": "2024-2025年圣地亚哥社区电力机构推出太阳能+储能激励计划，通过叠加州和地方补贴让中低收入社区可免费安装光储系统。截至2025年7.3MW签约覆盖1600户客户，产生500万美元资源节约价值（相当于电网扩容投资节省），50%预算定向用于社区弱势群体，是公平分配分布式能源收益的典范。",
+    "detail": "7.3MW光储能，500万美元资源节约价值，50%预算用于弱势社区",
+    "source": "https://www.smartenergydecisions.com/wp-content/uploads/2025/04/liftoff_doe_virtualpowerplants2025update.pdf",
+    "tags": [
+      "营销"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-rc-roanoke001",
+    "title": "Roanoke PAYS模式：低收入社区零成本改造",
+    "country": "美国",
+    "company": "Roanoke Electric Cooperative",
+    "year": 2025,
+    "tech": [
+      "智能电网",
+      "大数据",
+      "IoT"
+    ],
+    "scale": "大型",
+    "investment": "未公开",
+    "roi": "750户签约，20%电费&峰值降低，目标1000户，NPV 200万美元",
+    "summary": "Roanoke电力合作采用Pay As You Save模式，为美国第四低收入国会选区提供屋顶光伏和储能系统零成本升级改造。电力公司先行投资，客户按节能收益月度收费偿还。截至2025年750户签约，每户降低20%电费和20%峰值需求，为公用事业带来超200万美元净现值，正逐步向1000户目标扩展。",
+    "detail": "750户签约，20%电费&峰值降低，目标1000户，NPV 200万美元",
+    "source": "https://www.smartenergydecisions.com/wp-content/uploads/2025/04/liftoff_doe_virtualpowerplants2025update.pdf",
+    "tags": [
+      "营销"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-bge-vpp001",
+    "title": "BGE管理充电：880辆EV削减峰值30%",
+    "country": "美国",
+    "company": "Baltimore Gas and Electric",
+    "year": 2025,
+    "tech": [
+      "需求侧管理",
+      "微电网",
+      "智能电网",
+      "大数据"
+    ],
+    "scale": "大型",
+    "investment": "未公开",
+    "roi": "880辆EV参与，峰值削减30%，推迟配网升级",
+    "summary": "2025年巴尔的摩燃气电力公司（BGE）开展管理型电动汽车充电项目，聚合880辆电动汽车在低谷时段充电、高峰时段降功率或暂停充电，实现非巧合峰值削减30%。项目验证了电动汽车作为分布式储能资源的电网调节潜力，推迟配电网设备升级需求，为高EV渗透率城市V2G商业化运营提供实证。",
+    "detail": "880辆EV参与，峰值削减30%，推迟配网升级",
+    "source": "https://www.smartenergydecisions.com/wp-content/uploads/2025/04/liftoff_doe_virtualpowerplants2025update.pdf",
+    "tags": [
+      "需求侧管理"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-aes-ev001",
+    "title": "AES Indiana EV管理推迟85%馈线升级8.5年",
+    "country": "美国",
+    "company": "AES Indiana",
+    "year": 2025,
+    "tech": [
+      "需求侧管理",
+      "微电网",
+      "IoT",
+      "大数据"
+    ],
+    "scale": "大型",
+    "investment": "未公开",
+    "roi": "85%馈线推迟8.5年，节省约10亿美元",
+    "summary": "AES Indiana通过智能管理电动汽车充电负荷，成功将85%配电网馈线设备升级需求推迟8.5年，累计避免约10亿美元超额资本支出。项目采用分时电价和激励信号引导EV车主在非高峰时段充电，证明需求侧管理可大幅延缓配电网投资，为高EV渗透率城市提供低成本电网扩容替代方案。",
+    "detail": "85%馈线推迟8.5年，节省约10亿美元",
+    "source": "https://www.smartenergydecisions.com/wp-content/uploads/2025/04/liftoff_doe_virtualpowerplants2025update.pdf",
+    "tags": [
+      "需求侧管理"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-ferc-dr001",
+    "title": "FERC确认需求响应全国容量持续增长",
+    "country": "美国",
+    "company": "FERC",
+    "year": 2025,
+    "tech": [
+      "需求侧管理",
+      "大数据",
+      "区块链"
+    ],
+    "scale": "大型",
+    "investment": "未公开",
+    "roi": "全美智能电表渗透率超50%，DR容量稳步增长",
+    "summary": "2025年FERC发布第20年度需求响应与先进计量评估报告，确认全美电力需求响应可用容量持续增长。智能电表在主要电力市场渗透率已超50%，为需求响应规模化奠定基础。需求响应已成为与发电资源同等重要的灵活性资源，在极端天气事件中发挥关键保供作用，多个ISO/RTO市场的容量补偿机制日趋完善。",
+    "detail": "全美智能电表渗透率超50%，DR容量稳步增长",
+    "source": "https://www.ferc.gov/sites/default/files/2025-12/25_Annual%20Assessment%20of%20Demand%20Response_1212.pdf",
+    "tags": [
+      "需求侧管理"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-avangrid-robot001",
+    "title": "Avangrid联合Boston Dynamics部署机器狗Sparky巡检变电站",
+    "country": "美国",
+    "company": "Avangrid (Iberdrola)",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "IoT",
+      "数字孪生",
+      "边缘计算"
+    ],
+    "scale": "试点（2座变电站）",
+    "investment": "未公开",
+    "roi": "30倍光学变焦+红外热成像+声学检测，AI自动读仪表/检过热/提前预警故障，提高巡检频率",
+    "summary": "2025年美国Avangrid公司联合Levatas和Boston Dynamics在Singer及East Shore两座变电站部署Spot机器狗（昵称Sparky），搭载30倍光学变焦相机、红外热像仪和声学传感器，实现变压器、断路器和电容器的自主巡检。AI模型自动读取仪表数据、检测设备过热和异常噪音，旨在提前发现设备缺陷并避免停电事故，显著提高变电站巡检频率和故障预警能力。",
+    "detail": "Sparky目前由现场人员通过平板电脑操控，远程操控软件正在开发中。",
+    "source": "https://www.avangrid.com/w/avangrid-pilots-mobile-robot-dog-to-advance-substation-inspections-with-ai",
+    "tags": [
+      "变电站巡检",
+      "机器人",
+      "AI检测"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-rugged-tmon001",
+    "title": "光纤传感器实时变压器监测：预测性维护的战略投资",
+    "country": "全球",
+    "company": "Rugged Monitoring",
+    "year": 2025,
+    "tech": [
+      "IoT",
+      "大数据",
+      "AI",
+      "智能电网"
+    ],
+    "scale": "全球",
+    "investment": "按项目收费",
+    "roi": "光纤传感器实时采集油温/绕组温度/DGA，预测性维护避免突发故障",
+    "summary": "2025年变压器监测技术广泛采用光纤传感器实现实时在线监测，相比传统定期巡检可显著提前发现变压器内部潜伏性故障。先进监测系统综合分析油中溶解气体(DGA)、绕组温度、局部放电和油温等多维数据，AI算法自动识别故障征兆并提前数周至数月预警，避免高成本非计划停机和设备损坏事故，已成为变压器状态检修的主流技术路线。",
+    "detail": "光纤传感器可直接嵌入变压器内部，耐受高温和电磁干扰。",
+    "source": "https://www.ruggedmonitoring.com/why-power-transformer-monitoring-is-a-strategic-investment-for-utilities/",
+    "tags": [
+      "变压器监测",
+      "状态检修",
+      "在线监测"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "us-epri-ds001",
+    "title": "EPRI数字变电站研讨会：状态检修降本提效路线图",
+    "country": "美国",
+    "company": "EPRI (电科院)",
+    "year": 2025,
+    "tech": [
+      "数字孪生",
+      "IoT",
+      "AI",
+      "云计算"
+    ],
+    "scale": "行业级",
+    "investment": "未公开",
+    "roi": "数字变电站提升安全性、降低运营成本、支持状态检修实施",
+    "summary": "2025年9月EPRI（美国电科院）举办数字变电站联合任务组会议和研讨会，汇聚全球电力公司、制造商和研究机构，共同推进数字变电站技术发展。研讨会重点讨论如何提升安全性、降低运营成本和支持状态检修策略实施，并探讨智能化设备调试和运维数字化转型等关键技术议题，为全球变电站智能化改造提供了清晰的路线图和实施路径。",
+    "detail": "EPRI是电力行业最具影响力的技术研究机构之一。",
+    "source": "https://www.epri.com/events/8B6079AD-0CAC-415A-ACA0-891BC59B6762",
+    "tags": [
+      "数字变电站",
+      "EPRI",
+      "状态检修"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "ca-optimotive-iris001",
+    "title": "加拿大Optimotive IRIS MK2：自主巡检变电站机器人",
+    "country": "加拿大",
+    "company": "Optimotive",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "IoT",
+      "边缘计算",
+      "数字孪生"
+    ],
+    "scale": "试点",
+    "investment": "未公开",
+    "roi": "IRIS MK2自主导航、多传感器巡检，检测变电站设备异常，已在加拿大电网试点部署",
+    "summary": "2025年6月加拿大Optimotive公司发布IRIS MK2自主巡检机器人，专为恶劣户外变电站环境设计，可在泥泞、多尘和不可预测的环境中自主收集设备状态数据。机器人搭载多传感器套件（可见光相机、热成像仪、激光雷达），AI系统自动识别仪表读数、检测过热设备和绝缘子破损，替代人工巡检并提高数据一致性，已在加拿大电网系统中试点部署。",
+    "detail": "相比Spot机器人，IRIS专为恶劣户外变电站环境优化。",
+    "source": "https://www.coherentmarketinsights.com/market-insight/transformer-substation-inspecting-robot-market-4603",
+    "tags": [
+      "变电站巡检",
+      "机器人",
+      "自主导航"
+    ],
+    "confidence": "中"
+  },
+  {
+    "id": "us-subst-robot-mkt001",
+    "title": "变电站巡检机器人市场2025年达18亿美元：年增速18.5%",
+    "country": "全球",
+    "company": "MarketIntelo",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "机器人",
+      "IoT",
+      "智能电网"
+    ],
+    "scale": "全球市场",
+    "investment": "18亿美元(2025)",
+    "roi": "市场CAGR 18.5%，预计2034达72亿美元",
+    "summary": "2025年全球变电站巡检机器人市场规模达18亿美元，预计到2034年将达72亿美元，复合年增长率高达18.5%。增长驱动因素包括电力系统自动化程度提升、安全法规趋严、人工成本上升以及AI和机器人技术的快速成熟。北美和欧洲是最大市场，中东非洲加速部署，中国和南美增长潜力巨大，机器人巡检正从试点走向规模化部署阶段。",
+    "detail": "主要应用场景包括变压器巡检、开关柜检测和线路巡视。",
+    "source": "https://marketintelo.com/report/substation-inspection-robots-market",
+    "tags": [
+      "变电站巡检",
+      "市场规模",
+      "机器人"
+    ],
+    "confidence": "中"
+  },
+  {
+    "id": "us-gis-mon001",
+    "title": "气体绝缘变电站数字监测：无线/IoT传感器实时预警",
+    "country": "全球",
+    "company": "行业报告",
+    "year": 2025,
+    "tech": [
+      "IoT",
+      "AI",
+      "智能电网",
+      "网络安全"
+    ],
+    "scale": "全球",
+    "investment": "按项目",
+    "roi": "无线传感器实时监测GIS气密度和泄漏，实时告警至控制室",
+    "summary": "2025年气体绝缘变电站(GIS)监测技术向无线/IoT传感器方向快速发展，新型监测模块可直接将GIS气密度数据、泄漏告警和局部放电信号实时传输至控制室和资产管理系统，无需布线且覆盖广泛。传感器可监测SF6气体密度、断路器动作特性和隔离开关触头温度等关键参数，配合AI算法提前预警设备老化和绝缘缺陷，降低GIS爆炸和泄漏风险。",
+    "detail": "SF6替代气体(如EconiQ等)的监测需求也在同步增长。",
+    "source": "https://www.cedengineering.com/userfiles/Gas%20Insulated%20Substation%20Control%20and%20Monitoring%20R1.pdf",
+    "tags": [
+      "GIS",
+      "气体监测",
+      "无线传感器"
+    ],
+    "confidence": "中"
+  },
+  {
+    "id": "us-fea-transformer001",
+    "title": "FirstEnergy数字变电站建设：光纤通信替代传统铜缆",
+    "country": "美国",
+    "company": "FirstEnergy",
+    "year": 2025,
+    "tech": [
+      "IoT",
+      "数字孪生",
+      "5G",
+      "网络安全"
+    ],
+    "scale": "大型",
+    "investment": "区域电网改造",
+    "roi": "数字化变电站减少铜缆用量60%，提高数据采集精度",
+    "summary": "2025年美国FirstEnergy公司推进数字变电站建设项目，在新建和改造变电站中采用光纤通信替代传统控制铜缆，大幅减少60%线缆用量并提高信号传输精度和抗电磁干扰能力。数字变电站集成智能电子设备、合并单元和智能终端，实现一次设备二次设备一体化和全站信息共享，为电网自动化、故障分析和远程运维奠定基础，覆盖美国6州约2000万用户的配电网。",
+    "detail": "FirstEnergy是美国大型电力公司，覆盖俄亥俄/宾州/新泽西等6州。",
+    "source": "https://www.epri.com/events/8B6079AD-0CAC-415A-ACA0-891BC59B6762",
+    "tags": [
+      "数字变电站",
+      "光纤通信",
+      "IEC 61850"
+    ],
+    "confidence": "中"
   }
 ]
