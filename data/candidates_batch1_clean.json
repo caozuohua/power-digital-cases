@@ -1,0 +1,410 @@
+[
+  {
+    "id": "se-svk-004",
+    "title": "Svenska kraftnät 数字化转型 IT 框架协议（CGI/COWI/Sweco）",
+    "country": "瑞典",
+    "company": "Svenska kraftnät",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "数字孪生",
+      "智能电网"
+    ],
+    "scale": "大型",
+    "investment": "SEK 700M+ (COWI 部分)",
+    "roi": "提升全国输电网（16,000km）的数字化运维能力和安全裕度",
+    "summary": "Svenska kraftnät（瑞典国家输电公司）2025年与 CGI 签署多年IT咨询框架协议，推动电网数字化现代化；同时 COWI 获得 SEK 700M 合同建设460km新400kV线路；Sweco 获 SEK 50M 完成输电系统全面审查升级。计划到2035年投运2,900km新线路和40个新变电站。",
+    "source": "https://www.cowi.com/news-and-press/news/2025/cowi-wins-sweden-s-largest-electrical-grid-project/",
+    "tags": [
+      "数字化转型",
+      "输电网",
+      "IT咨询",
+      "电网现代化"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "se-vattenfall-004",
+    "title": "Vattenfall Goldisthal 水电站 AI+机器人巡检数字化项目",
+    "country": "瑞典",
+    "company": "Vattenfall",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "机器人",
+      "数字孪生"
+    ],
+    "scale": "大型",
+    "investment": "未公开",
+    "roi": "AI自动分析大坝无人机巡检图像，映射裂缝，减少人工巡检频率",
+    "summary": "Vattenfall 位于德国的 Goldisthal 抽水蓄能电站部署 AI 分析无人机图像，实现大坝裂缝自动识别与3D数字孪生建模，加速能源转型中的数字化运维。2025年全年Vattenfall加大瑞典电网投资。",
+    "source": "https://group.vattenfall.com/press-and-media/newsroom/2025/how-ai-and-robots-are-accelerating-the-energy-transition/",
+    "tags": [
+      "水电",
+      "无人机巡检",
+      "AI图像识别",
+      "数字孪生"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "se-vattenfall-005",
+    "title": "Vattenfall 挪威 AI 数据中心绿电供应协议（Nscale）",
+    "country": "瑞典",
+    "company": "Vattenfall",
+    "year": 2025,
+    "tech": [
+      "可再生能源",
+      "智能电网"
+    ],
+    "scale": "大型",
+    "investment": "未公开",
+    "roi": "为 AI 基础设施提供可再生电力，降低数据中心碳足迹",
+    "summary": "Vattenfall 与 Nscale 签署挪威 AI 数据中心可再生能源供电协议，覆盖2027-2031年用电需求，反映北欧地区AI+电力数字化融合趋势。",
+    "source": "https://www.tgs4c.com/news/vattenfall-signs-renewable-power-deal-for-nscale92s-norway-ai-data-centre-nid32766.html",
+    "tags": [
+      "AI数据中心",
+      "绿电",
+      "PPA",
+      "数字化"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "be-elia-004",
+    "title": "Elia AI 系统不平衡预测工具（Simplify/ML6项目）",
+    "country": "比利时",
+    "company": "Elia",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "大数据",
+      "智能电网"
+    ],
+    "scale": "大型",
+    "investment": "未公开",
+    "roi": "系统不平衡预测误差降低41%（EU Sustainable Energy Week 报道）",
+    "summary": "比利时输电运营商 Elia 开发 AI 预测工具，将系统不平衡预测误差降低41%。旗下 Simplify 项目（机器学习模型）和 ML6 项目进一步优化实时调度，支撑高比例可再生能源接入下的电网平衡。",
+    "source": "https://sustainable-energy-week.ec.europa.eu/news/ai-and-energy-dynamic-duo-shaping-power-grid-2025-12-11_en",
+    "tags": [
+      "AI预测",
+      "电网平衡",
+      "TSO",
+      "机器学习"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "be-engie-004",
+    "title": "Engie Vilvoorde 800MWh 电池储能系统（BESS）",
+    "country": "比利时",
+    "company": "Engie",
+    "year": 2025,
+    "tech": [
+      "储能",
+      "数字平台",
+      "智能电网"
+    ],
+    "scale": "大型",
+    "investment": "未公开（200MW/800MWh）",
+    "roi": "为近10万户家庭提供4小时储能，增强电网灵活性和可再生能源消纳",
+    "summary": "Engie 在比利时 Vilvoorde 投运 200MW/800MWh 电池储能系统（320个电池模块），16个月建成，是欧洲最大的电池储能项目之一。配套数字平台实现智能调度，目前正评估100MW/400MWh扩建。",
+    "source": "https://www.pv-magazine.com/2025/11/21/engie-completes-800-mwh-battery-in-belgium-and-considers-expansion/",
+    "tags": [
+      "BESS",
+      "储能",
+      "电网灵活性",
+      "数字化运维"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "ch-axpo-004",
+    "title": "Axpo & ABB 瑞士首座数字化水电站（Hydro 4.0 Sarganserland）",
+    "country": "瑞士",
+    "company": "Axpo",
+    "year": 2025,
+    "tech": [
+      "数字孪生",
+      "AI",
+      "水电"
+    ],
+    "scale": "大型",
+    "investment": "未公开",
+    "roi": "减少人工巡检，提升水电运维效率，实现数字化检修",
+    "summary": "Axpo 联合 ABB 在 Sarganserland 水电站启动 Hydro 4.0 项目，将传统模拟运维升级为全数字模式（数字化检修、无人机巡检、ABB Ability™ 平台集成），成为瑞士首座数字化水电站。",
+    "source": "https://new.abb.com/news/detail/71878/abb-helps-axpo-develop-switzerlands-first-digital-hydropower-plant",
+    "tags": [
+      "水电",
+      "数字孪生",
+      "ABB",
+      "Hydro 4.0"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "ch-schneider-004",
+    "title": "Schneider Electric One Digital Grid Platform 发布",
+    "country": "瑞士",
+    "company": "Schneider Electric",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "数字平台",
+      "智能电网"
+    ],
+    "scale": "大型",
+    "investment": "未公开（厂商级平台）",
+    "roi": "为公用事业公司提供AI驱动的电网规划、运营和资产管理一体化平台",
+    "summary": "Schneider Electric 在2025年推出 One Digital Grid Platform，整合AI、规划、运营和资产管理模块，帮助公用事业公司加速电网数字化。已在欧洲多国部署。",
+    "source": "https://www.se.com/us/en/about-us/newsroom/news/press-releases/schneider-electric-unveils-the-future-of-energy-intelligence-with-one-digital-grid-platform-67db14af402dd7c57a0980bb",
+    "tags": [
+      "数字平台",
+      "AI",
+      "电网管理",
+      "厂商案例"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "es-iberdrola-006",
+    "title": "Iberdrola AI Innovation Data Space (i-DS) 电网优化项目",
+    "country": "西班牙",
+    "company": "Iberdrola",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "大数据",
+      "智能电网"
+    ],
+    "scale": "大型",
+    "investment": "€2B（Echelon合资）",
+    "roi": "从数据中提取价值优化电网运行，提升可再生能源消纳效率",
+    "summary": "Iberdrola 主导 AI Innovation Data Space (i-DS) 项目，联合BCAM等机构研究AI技术应用于电力网络。同时在西班牙投资€2B建设Echelon数据中心，将AI算力与电网运营深度耦合。Iberdrola自称全球智能电网领导者。",
+    "source": "https://www.enlit.world/library/iberdrola-launches-ai-innovation-project-to-optimise-power-grids",
+    "tags": [
+      "AI",
+      "数据空间",
+      "智能电网",
+      "厂商案例"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "es-endesa-004",
+    "title": "Endesa & 格拉纳达大学 AI+量子计算电网研究",
+    "country": "西班牙",
+    "company": "Endesa",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "量子计算",
+      "智能电网"
+    ],
+    "scale": "中型",
+    "investment": "未公开",
+    "roi": "探索AI和量子计算在电力网络中的应用潜力",
+    "summary": "Endesa（Enel集团子公司）与格拉纳达大学签署合作协议，研究AI和量子计算在电力网络中的应用，开辟电力数字化前沿技术方向。",
+    "source": "https://www.endesa.com/en/press/press-room/news/energy-transition/smart-grids/ia-electrical-networks-research-catedras",
+    "tags": [
+      "AI",
+      "量子计算",
+      "产学研",
+      "电力数字化"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "it-terna-006",
+    "title": "Terna 电网数字化转型（2024-2028 工业计划 €24亿）",
+    "country": "意大利",
+    "company": "Terna",
+    "year": 2025,
+    "tech": [
+      "数字孪生",
+      "AI",
+      "IoT",
+      "智能电网"
+    ],
+    "scale": "大型",
+    "investment": "€2.4B（数字化专项）",
+    "roi": "提升意大利电网韧性和可再生能源消纳，2025年建设300km+新线路",
+    "summary": "Terna 在2024-2028工业计划中投入€24亿用于数字化转型（较上期增长20%），包括数字孪生、AI预测、IoT传感等。2025年开发计划上线手机App，实时查看电网建设进度。IEEFA报告称其投资超€23B。",
+    "source": "https://www.renewablematter.eu/en/terna-invests-innovation-hubs-energy-transition",
+    "tags": [
+      "数字孪生",
+      "输电网",
+      "工业计划",
+      "意大利"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "fr-rte-004",
+    "title": "RTE 未来电网创新计划（5年变革大于过去40年）",
+    "country": "法国",
+    "company": "RTE",
+    "year": 2025,
+    "tech": [
+      "数字孪生",
+      "AI",
+      "智能电网"
+    ],
+    "scale": "大型",
+    "investment": "未公开",
+    "roi": "为法国电网脱碳和数字化转型奠定基础",
+    "summary": "法国输电公司 RTE 宣布未来5年电网变革将超过过去40年总和，重点推进数字化和AI应用。EDF 同时启动AI数据中心专项，支持数字公司接入。",
+    "source": "https://www.rte-france.com/en/discover-rte/missions/manage-optimise-network/innovating-preparation-tomorrow-grid",
+    "tags": [
+      "电网变革",
+      "数字化",
+      "RTE",
+      "法国"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "gb-nationalgrid-004",
+    "title": "National Grid Great Grid Upgrade + 数字化扩容技术",
+    "country": "英国",
+    "company": "National Grid",
+    "year": 2025,
+    "tech": [
+      "智能电网",
+      "数字平台",
+      "AI"
+    ],
+    "scale": "大型",
+    "investment": "£70B（UK+US总投资）",
+    "roi": "英国史上最大电网升级，扩容585km输电线路",
+    "summary": "National Grid 推进 Great Grid Upgrade（英国史上最大电网升级），2026年扩展数字化扩容技术至585km输电线路。2025/26年度投资£70B升级英美网络。2026 Network Development Plan 规划配电网演进以支持EV和热泵增长。",
+    "source": "https://eandt.theiet.org/2026/04/30/national-grid-expand-rollout-tech-boost-power-line-capacity",
+    "tags": [
+      "电网升级",
+      "数字化扩容",
+      "英国",
+      "输配电"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "nl-tennet-004",
+    "title": "TenneT €55亿电网投资 + 数字化智能化运维",
+    "country": "荷兰",
+    "company": "TenneT",
+    "year": 2025,
+    "tech": [
+      "智能电网",
+      "数字平台",
+      "AI"
+    ],
+    "scale": "大型",
+    "investment": "€5.5B（H1 2025）",
+    "roi": "荷兰9.1GW额外电网容量可用（非高峰期），提升数据中心接电效率",
+    "summary": "TenneT 2025年上半年投资€5.5B（+20%），宣布荷兰9.1GW额外电网容量在非高峰期可用。2025-2029年计划投资€43B建设荷兰陆上和海上电网。数字化方面嵌入智能电网架构，支撑欧洲数据中心扩张。",
+    "source": "https://www.tennet.eu/news/tennet-invested-eur-55-bn-and-launched-initiatives-accelerate-grid-expansion-and-optimise-grid-use-h1-2025",
+    "tags": [
+      "TSO",
+      "电网投资",
+      "数字化",
+      "荷兰"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "pl-tauron-004",
+    "title": "Tauron €12亿电网转型与数字化项目 + 40万智能电表",
+    "country": "波兰",
+    "company": "Tauron",
+    "year": 2025,
+    "tech": [
+      "智能电表",
+      "智能电网",
+      "数字平台"
+    ],
+    "scale": "大型",
+    "investment": "€1.2B",
+    "roi": "覆盖40万+智能电表，实现波兰最大互操作智能电表项目",
+    "summary": "Tauron 2025年与BGK签署€12亿融资协议用于电网转型和数字化。其配电公司已部署40万+全互操作智能电表（波兰最大），2025年底目标35%覆盖率。新波兰电网战略2025-34加速能源转型。",
+    "source": "https://www.enlit.world/library/poland-s-tauron-secures-further-1-2bn-for-grid-transformation-and-digitalisation",
+    "tags": [
+      "智能电表",
+      "电网转型",
+      "波兰",
+      "融资"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "de-enbw-004",
+    "title": "EnBW €400亿电网扩建 + EnBW Connects 参与式投资模型",
+    "country": "德国",
+    "company": "EnBW",
+    "year": 2025,
+    "tech": [
+      "智能电网",
+      "数字平台",
+      "AI"
+    ],
+    "scale": "大型",
+    "investment": "€40B（系统关键基础设施）",
+    "roi": "245个地方政府参与投资€330M，加速配电网数字化扩建",
+    "summary": "EnBW 部署€400亿扩建系统关键电网基础设施，创新推出'EnBW Connects'参与式投资模型，245个地方政府投资约€330M给Netze BW。2025年连接3个太阳能园区（24.2MW）。",
+    "source": "https://www.enbw.com/annual-report-2025/highlights-2025/",
+    "tags": [
+      "配电网",
+      "参与式投资",
+      "德国",
+      "电网扩建"
+    ],
+    "confidence": "高"
+  },
+  {
+    "id": "de-rwe-004",
+    "title": "RWE 数字化电网运营与可再生能源AI预测平台",
+    "country": "德国",
+    "company": "RWE",
+    "year": 2025,
+    "tech": [
+      "AI",
+      "大数据",
+      "可再生能源"
+    ],
+    "scale": "大型",
+    "investment": "未公开",
+    "roi": "提升可再生能源预测精度和电网运营效率",
+    "summary": "RWE 作为德国最大能源运营商之一，持续推进电网数字化和AI驱动的可再生能源预测。其项目地图展示多个数字化电网和可再生能源项目正在建设中。",
+    "source": "https://www.rwe.com/en/research-and-development/project-plans/",
+    "tags": [
+      "RWE",
+      "AI预测",
+      "可再生能源",
+      "德国"
+    ],
+    "confidence": "中"
+  },
+  {
+    "id": "dk-orsted-004",
+    "title": "Ørsted 电网数字化与海上风电智能运维平台",
+    "country": "丹麦",
+    "company": "Ørsted",
+    "year": 2025,
+    "tech": [
+      "数字孪生",
+      "AI",
+      "海上风电"
+    ],
+    "scale": "大型",
+    "investment": "未公开",
+    "roi": "提升海上风电场运维效率，降低停机时间",
+    "summary": "Ørsted 作为全球海上风电领导者，2025年持续推进电网数字化和智能运维平台建设，将数字孪生和AI技术应用于海上风电场运营优化。",
+    "source": "https://orsted.com",
+    "tags": [
+      "海上风电",
+      "数字孪生",
+      "丹麦",
+      "智能运维"
+    ],
+    "confidence": "中"
+  }
+]
