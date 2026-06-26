@@ -12070,5 +12070,129 @@
       "德国"
     ],
     "confidence": "中"
+  },
+  {
+    "id": "iea-emp-demand-2023",
+    "title": "IEA Empowering Demand: The Role of Demand-Side Management in a Net Zero World",
+    "country": "全球",
+    "company": "IEA",
+    "year": 2023,
+    "tech": [
+      "需求侧管理",
+      "大数据",
+      "AI"
+    ],
+    "scale": "全球",
+    "source": "https://www.iea.org/reports/empowering-demand",
+    "confidence": "高"
+  },
+  {
+    "id": "iea-data-digital-2023",
+    "title": "IEA Data and Digital for Power System Flexibility",
+    "country": "全球",
+    "company": "IEA",
+    "year": 2023,
+    "tech": [
+      "大数据",
+      "AI",
+      "IoT",
+      "数字孪生"
+    ],
+    "scale": "全球",
+    "source": "https://www.iea.org/reports/data-and-digital-for-power-system-flexibility",
+    "confidence": "高"
+  },
+  {
+    "id": "irena-weto-2024",
+    "title": "IRENA World Energy Transitions Outlook 2024",
+    "country": "全球",
+    "company": "IRENA",
+    "year": 2024,
+    "tech": [
+      "光伏",
+      "储能",
+      "AI",
+      "大数据"
+    ],
+    "scale": "全球",
+    "source": "https://www.irena.org/publications/2024/Mar/World-Energy-Transitions-Outlook-2024",
+    "confidence": "高"
+  },
+  {
+    "id": "irena-smart-grid-2023",
+    "title": "IRENA Innovation Landscape for Smart Grids",
+    "country": "全球",
+    "company": "IRENA",
+    "year": 2023,
+    "tech": [
+      "智能电网",
+      "IoT",
+      "大数据",
+      "AI"
+    ],
+    "scale": "全球",
+    "source": "https://www.irena.org/publications/2023/Dec/Innovation-Landscape-for-Smart-Grids",
+    "confidence": "高"
+  },
+  {
+    "id": "us-coned-ami-2024",
+    "title": "联合爱迪生纽约AMI智能电表全面部署",
+    "country": "美国",
+    "company": "Consolidated Edison",
+    "year": 2024,
+    "tech": [
+      "智能电网",
+      "IoT",
+      "大数据"
+    ],
+    "scale": "大型",
+    "source": "https://www.coned.com/en/ourcompany/energy-systems/smart-meters",
+    "confidence": "高"
+  },
+  {
+    "id": "gb-ngeso-dlr-2024",
+    "title": "英国国家电网动态线路额定值与AI调度",
+    "country": "英国",
+    "company": "National Grid ESO",
+    "year": 2024,
+    "tech": [
+      "AI",
+      "智能电网",
+      "数字孪生"
+    ],
+    "scale": "全国",
+    "source": "https://www.nationalgrideso.com/future-energy/projects/dynamic-line-rating",
+    "confidence": "高"
+  },
+  {
+    "id": "iea-grid-enhance-2023",
+    "title": "IEA Grid-enhancing Technologies: Power System Transformation",
+    "country": "全球",
+    "company": "IEA",
+    "year": 2023,
+    "tech": [
+      "智能电网",
+      "大数据",
+      "IoT"
+    ],
+    "scale": "全球",
+    "source": "https://www.iea.org/reports/grid-enhancing-technologies",
+    "confidence": "高"
+  },
+  {
+    "id": "irena-digital-2023",
+    "title": "IRENA Digitalisation for Energy Transition",
+    "country": "全球",
+    "company": "IRENA",
+    "year": 2023,
+    "tech": [
+      "大数据",
+      "IoT",
+      "AI",
+      "智能电网"
+    ],
+    "scale": "全球",
+    "source": "https://www.irena.org/publications/2023/Oct/Digitalisation-for-Energy-Transition",
+    "confidence": "高"
   }
 ]
