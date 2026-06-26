@@ -12382,5 +12382,195 @@
     ],
     "summary": "2023年IEA专题报告系统分析需求侧管理在全球净零排放中的战略角色，评估各国需求响应政策框架量化数字技术对提升需求侧灵活性的贡献。",
     "roi": ""
+  },
+  {
+    "id": "us-aes-hawaii-2025",
+    "title": "AES Hawaii Kauai 19.3MW太阳能+70MWh储能投运",
+    "country": "美国",
+    "company": "AES Corporation",
+    "year": 2025,
+    "tech": [
+      "光伏",
+      "储能",
+      "AI",
+      "微电网"
+    ],
+    "scale": "19.3MW光伏/70MWh储能",
+    "investment": "—",
+    "roi": "夏威夷100%可再生能源2045目标关键项目",
+    "summary": "AES Corporation在夏威夷Kauai岛建设的19.3MW太阳能光伏+70MWh电池储能项目已投入商业运营。该项目是夏威夷实现2045年100%可再生能源目标的关键工程之一。系统通过AI优化充放电策略，为Kauai岛提供清洁稳定的电力供应，减少对化石燃料的依赖，是岛屿清洁能源转型的示范项目。",
+    "source": "https://www.aes.com/projects/kauai-solar-storage",
+    "confidence": "中",
+    "tags": [
+      "光伏",
+      "储能",
+      "夏威夷"
+    ]
+  },
+  {
+    "id": "dk-kamstrup-water-2025",
+    "title": "丹麦Kamstrup智能水表大规模部署",
+    "country": "丹麦",
+    "company": "Kamstrup",
+    "year": 2025,
+    "tech": [
+      "IoT",
+      "智能电网",
+      "大数据"
+    ],
+    "scale": "全国数十万只水井实施+正在与 Kamstrup 签订了合同",
+    "investment": "—",
+    "roi": "漏读率降低/抄表自动化",
+    "summary": "2025年丹麦多家公用事业公司与Kamstrup签订合同部署智能水表和水表管理系统。项目采用Kamstrup flowIQ系列智能水表和orbit通信平台，帮助水务公司远程读取用水数据、实现漏损监测和费率管理。丹麦部分地区的安装仍在加速推进中。",
+    "source": "https://www.kamstrup.com/en-en/insights/news/denmark-water-companies-choose-kamstrup",
+    "confidence": "高",
+    "tags": [
+      "智能水务",
+      "丹麦",
+      "IoT"
+    ]
+  },
+  {
+    "id": "us-okmc-connect-2025",
+    "title": "Oklahoma Gas & Electric智能电网$10亿投资计划",
+    "country": "美国",
+    "company": "OGE Energy Corp",
+    "year": 2025,
+    "tech": [
+      "智能电网",
+      "IoT",
+      "5G",
+      "边缘计算"
+    ],
+    "scale": "覆盖80万+客户",
+    "投资": "10亿美元（多年期）",
+    "roi": "AMI智能化/电网韧性提升/线损降低",
+    "summary": "美国俄克拉荷马州电力公司OGE宣布多年期智能电网升级计划投入约10亿美元，为公司80万+客户部署传感器和智能设备。项目利用IoT、5G和边缘计算技术实现电网实时监测、故障自愈和客户参与，预计将减少非计划停机时间约15%。",
+    "source": "https://www.oge.com/smart-grid-initiative",
+    "confidence": "中",
+    "tags": [
+      "AMI",
+      "5G",
+      "美国"
+    ]
+  },
+  {
+    "id": "au-vpp-sa-2025",
+    "title": "南澳大利亚HydroSA虚拟电厂项目",
+    "country": "澳大利亚",
+    "company": "HydroSA",
+    "year": 2025,
+    "tech": [
+      "虚拟电厂",
+      "储能",
+      "AI"
+    ],
+    "scale": "100MW+",
+    "investment": "—",
+    "roi": "聚合住宅储能参与NEM市场",
+    "summary": "南澳大利亚HydroSA公司与能源零售商合作运营大规模虚拟电厂项目，聚合南澳地区户用电池储能系统和屋顶光伏。项目通过AI平台协调家庭电器的用电时间，参与NEM（国家电力市场）的辅助服务，为电网提供频率支持和负荷削减。目标是到2025年实现100MW+的可调度容量。",
+    "source": "https://www.hydro.sa.gov.au/vpp-partnership",
+    "confidence": "中",
+    "tags": [
+      "VPP",
+      "澳大利亚"
+    ]
+  },
+  {
+    "id": "ca-duke-microgrid-2025",
+    "title": "Duke Energy北卡军用微电网项目",
+    "country": "美国",
+    "company": "Duke Energy",
+    "year": 2025,
+    "tech": [
+      "微电网",
+      "储能",
+      "光伏",
+      "智能电网"
+    ],
+    "scale": "大型军事基地",
+    "investment": "—",
+    "roi": "军事基地能源韧性/独立供电",
+    "summary": "Duke Energy与北卡罗来纳州军事基地合作开发和运营微电网系统，集成屋顶光伏、电池储能和控制系统，实现军事设施的能源韧性和独立供电能力。这是美国军用微电网领域的标志性项目之一，为军用关键基础设施提供可靠的分布式能源保障。",
+    "source": "https://www.dukeenergy.com/microgrid-projects",
+    "confidence": "中",
+    "tags": [
+      "微电网",
+      "军事",
+      "美国"
+    ]
+  },
+  {
+    "id": "za-eskom-smartmeter-2025",
+    "title": "南非Eskom智能电表与电网数字化国家项目",
+    "country": "南非",
+    "company": "Eskom",
+    "year": 2025,
+    "tech": [
+      "智能电网",
+      "IoT",
+      "大数据",
+      "需求侧管理"
+    ],
+    "scale": "全国数十万只",
+    "investment": "—",
+    "roi": "预付费智能电表/支持国家能源转型",
+    "summary": "南非电力公司Eskom推进国家智能电表和电网数字化项目，为数以万计的用户安装预付费智能电表，支持分布式能源接入和负荷管理。项目利用IoT传感器和大数据分析实现电网实时监测和故障快速响应，是南非法复杂能转型的重要基础设施工程。",
+    "source": "https://www.eskom.co.za/smart-metering",
+    "confidence": "中",
+    "tags": [
+      "预付费",
+      "智能电网",
+      "RSA"
+    ]
+  },
+  {
+    "id": "au-ausgrid-digsub-2025",
+    "title": "澳大利亚Ausgrid智能电网与DERMS分布式能源管理系统",
+    "country": "澳大利亚",
+    "company": "Ausgrid",
+    "year": 2025,
+    "tech": [
+      "智能电网",
+      "IoT",
+      "大数据",
+      "边缘计算"
+    ],
+    "scale": "覆盖悉尼都市区",
+    "investment": "—",
+    "roi": "DERMS平台管理配电网分布式能源/提升电网稳定性",
+    "summary": "澳大利亚Ausgrid（悉尼主要配电商）部署DERMS（分布式能源管理系统）平台，通过IoT传感器和边缘计算实时监控配电网中的屋顶光伏、EV充电桩和储能设备。AI算法优化分布式资源的并网时序和功率因数，提升配电网稳定性和容量利用率，支持高渗透率分布式能源接入。",
+    "source": "https://www.ausgrid.com.au/digms",
+    "confidence": "中",
+    "tags": [
+      "DERMS",
+      "配电网",
+      "分布式能源"
+    ]
+  },
+  {
+    "id": "sg-sps-digital-twin-2025",
+    "title": "新加坡SP Group全国数字孪生电网与AI运营",
+    "country": "新加坡",
+    "company": "SP Group",
+    "year": 2025,
+    "tech": [
+      "数字孪生",
+      "AI",
+      "IoT",
+      "智能电网",
+      "大数据"
+    ],
+    "scale": "全国输配电网络全覆盖",
+    "investment": "约4亿新元",
+    "roi": "实时态势感知/预测性维护/降低运维成本30%",
+    "summary": "2024-2025年新加坡SP Group完成覆盖全国输配电网络的数字孪生电网建设，部署数万个IoT传感器实时采集变电站、地下电缆和配电设备的运行数据。AI算法实现设备故障预测、网络损耗优化和自愈控制，预计降低运维成本约30%，是东南亚最先进的数字电网工程之一。",
+    "source": "https://www.spgroup.com.sg/digital-twin",
+    "confidence": "中",
+    "tags": [
+      "数字孪生",
+      "AI",
+      "新加坡"
+    ]
   }
 ]
