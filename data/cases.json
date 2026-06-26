@@ -12194,5 +12194,193 @@
     "scale": "全球",
     "source": "https://www.irena.org/publications/2023/Oct/Digitalisation-for-Energy-Transition",
     "confidence": "高"
+  },
+  {
+    "id": "au-agl-vpp-2025",
+    "title": "AGL南澳大利亚虚拟电厂目标100MW调度容量",
+    "country": "澳大利亚",
+    "company": "AGL Energy",
+    "year": 2025,
+    "tech": [
+      "储能",
+      "大数据",
+      "AI"
+    ],
+    "scale": "100MW/数千户",
+    "investment": "数亿澳元",
+    "source": "https://www.agl.com.au",
+    "confidence": "中",
+    "tags": [
+      "VPP",
+      "储能",
+      "澳大利亚"
+    ],
+    "summary": "AGL Energy在南澳大利亚运营全球最大规模住宅虚拟电厂之一，聚合特斯拉Powerwall储能系统和屋顶光伏数千户家庭，2025年目标达到100MW可调度容量。VPP通过AI平台协调充放电行为参与澳大利亚国家电力市场现货交易和频率控制辅助服务。",
+    "roi": "参与现货市场"
+  },
+  {
+    "id": "de-next-vpp-2025",
+    "title": "Next Kraftwerke德国VPP聚合超15GW分布式能源",
+    "country": "德国",
+    "company": "Next Kraftwerke",
+    "year": 2025,
+    "tech": [
+      "虚拟电厂",
+      "大数据",
+      "AI",
+      "智能电网"
+    ],
+    "scale": ">15GW",
+    "investment": "—",
+    "source": "https://www.next-kraftwerke.com",
+    "confidence": "中",
+    "tags": [
+      "VPP",
+      "德国"
+    ],
+    "summary": "Next Kraftwerke是德国和欧洲最大的虚拟电厂运营商，控制平台聚合超过15GW风电光伏生物质和储能分布式能源。AI算法预测可再生能源出力和电价信号实时调度数千个分布式单元参与欧洲电力现货市场和辅助服务市场。",
+    "roi": "聚合数千个单元"
+  },
+  {
+    "id": "fr-enedis-linky-2024",
+    "title": "法国Enedis Linky智能电表3500万只部署完成",
+    "country": "法国",
+    "company": "Enedis (EDF子公司)",
+    "year": 2024,
+    "tech": [
+      "智能电网",
+      "IoT",
+      "大数据"
+    ],
+    "scale": "全国3500万只",
+    "investment": "50-60亿欧元",
+    "source": "https://www.enedis.fr/compteur-linky",
+    "confidence": "高",
+    "tags": [
+      "AMI",
+      "智能电表",
+      "法国"
+    ],
+    "summary": "法国配电运营商Enedis完成全国Linky智能电表部署安装超过3500万只覆盖全部家庭和企业达到近100%渗透率。项目2015年启动2021年完成主体部署，实现远程数据采集、远程通断电、精确到半小时用电数据可视化，大幅降低线损率。",
+    "roi": "降低线损率"
+  },
+  {
+    "id": "in-rdss-25-2025",
+    "title": "印度RDSS计划2025年部署2.5亿只预付费智能电表",
+    "country": "印度",
+    "company": "Ministry of Power/EESL",
+    "year": 2025,
+    "tech": [
+      "智能电网",
+      "IoT",
+      "大数据",
+      "需求侧管理"
+    ],
+    "scale": "2.5亿只(全国)",
+    "investment": "数千亿卢比",
+    "source": "https://www.eeslsmartmeter.in",
+    "confidence": "高",
+    "tags": [
+      "AMI",
+      "印度",
+      "能源政策"
+    ],
+    "summary": "印度政府通过RDSS方案推动全国智能电表更换目标2025年3月安装2.5亿只预付费智能电表。电力部统筹EESL等PSU实施旨在将印度各邦AT&C损失从约20%降至15%以下，配合移动支付和数字账单系统提升配电公司现金流。",
+    "roi": "降低AT&C损失"
+  },
+  {
+    "id": "sg-sp-digital-2025",
+    "title": "新加坡SP Group数字孪生电网AI运营中心",
+    "country": "新加坡",
+    "company": "SP Group",
+    "year": 2025,
+    "tech": [
+      "数字孪生",
+      "AI",
+      "IoT",
+      "大数据",
+      "智能电网"
+    ],
+    "scale": "全国输配电网络",
+    "investment": "约4亿新元",
+    "source": "https://www.spgroup.com.sg",
+    "confidence": "中",
+    "tags": [
+      "数字孪生",
+      "新加坡"
+    ],
+    "summary": "新加坡SP Group建设覆盖全国输配电网络的数字孪生电网，IoT传感器实时采集变电站变压器和电缆状态数据，AI算法实现实时态势感知设备故障预测预警和自愈控制，是新加坡智慧能源系统战略的核心。",
+    "roi": "降低运维成本"
+  },
+  {
+    "id": "de-amprion-ds-2025",
+    "title": "德国Amprion/ABB数字化GIS变电站IEC61850",
+    "country": "德国",
+    "company": "Amprion/ABB",
+    "year": 2025,
+    "tech": [
+      "数字孪生",
+      "智能电网",
+      "IoT",
+      "边缘计算"
+    ],
+    "scale": "高压输电网",
+    "investment": "数亿欧元",
+    "source": "https://www.amprion.net/Grid-Modernisation",
+    "confidence": "中",
+    "tags": [
+      "数字变电站",
+      "IEC61850",
+      "德国"
+    ],
+    "summary": "2024-2025年德国输电TSO Amprion与ABB合作部署基于IEC61850标准的数字化GIS变电站。采用光纤通信替代控制电缆、非常规互感器和智能电子设备，通过数字孪生实现实时状态监测和预测性维护，是德国能源转型电网现代化关键工程。",
+    "roi": "IEC61850标准化"
+  },
+  {
+    "id": "iea-eom-2024",
+    "title": "IEA电力市场报告2024：电网现代化与灵活性",
+    "country": "全球",
+    "company": "IEA",
+    "year": 2024,
+    "tech": [
+      "智能电网",
+      "大数据",
+      "AI",
+      "储能",
+      "需求侧管理"
+    ],
+    "scale": "全球",
+    "investment": "—",
+    "source": "https://www.iea.org/reports/electricity-market-report-2024",
+    "confidence": "高",
+    "tags": [
+      "IEA",
+      "电力市场"
+    ],
+    "summary": "IEA电力市场报告2024分析全球趋势强调电网现代化和灵活性资源整合对高比例可再生能源消纳关键作用，分析各国电网投资趋势和灵活性资源市场机制。",
+    "roi": ""
+  },
+  {
+    "id": "iea-demand-2023",
+    "title": "IEA Empowering Demand：需求侧管理净零世界角色",
+    "country": "全球",
+    "company": "IEA",
+    "year": 2023,
+    "tech": [
+      "需求侧管理",
+      "大数据",
+      "AI",
+      "智能电网"
+    ],
+    "scale": "全球",
+    "investment": "—",
+    "source": "https://www.iea.org/reports/empowering-demand",
+    "confidence": "高",
+    "tags": [
+      "IEA",
+      "需求侧管理"
+    ],
+    "summary": "2023年IEA专题报告系统分析需求侧管理在全球净零排放中的战略角色，评估各国需求响应政策框架量化数字技术对提升需求侧灵活性的贡献。",
+    "roi": ""
   }
 ]
