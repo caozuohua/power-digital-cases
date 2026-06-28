@@ -331,20 +331,33 @@ function initMap() {
   `;
 }
 
-// ── Charts ──
+// ── Charts (Pure Canvas, zero dependencies) ──
 function initCharts() {
   if (chartsBuilt) return;
   chartsBuilt = true;
 
-  // Check if Chart.js loaded (might fail without internet)
-  if (typeof Chart === 'undefined') {
-    document.querySelectorAll('.chart-container').forEach(el => {
-      el.innerHTML = '<p style="text-align:center;color:#64748b;padding:40px">Chart.js failed to load</p>';
-    });
-    return;
+  const COLORS = ['#0f4c81','#00c9a7','#f59e0b','#ef4444','#8b5cf6','#06b6d4','#10b981','#f97316','#ec4899','#6366f1'];
+
+  // Helper: get canvas from container
+  function getCanvas(containerId) {
+    const container = document.getElementById(containerId);
+    if (!container) return null;
+    const canvas = document.createElement('canvas');
+    container.innerHTML = '';
+    container.appendChild(canvas);
+    const dpr = window.devicePixelRatio || 1;
+    const w = container.clientWidth || 300;
+    const h = container.clientHeight || 220;
+    canvas.width = w * dpr;
+    canvas.height = h * dpr;
+    canvas.style.width = w + 'px';
+    canvas.style.height = h + 'px';
+    const ctx = canvas.getContext('2d');
+    ctx.scale(dpr, dpr);
+    return { ctx, w, h };
   }
 
-  // 1. Tech Trend
+  // ── 1. Tech Trend (Multi-line) ──
   const yearTags = {};
   const allYears = [...new Set(allCases.map(c => c.year))].sort();
   allCases.forEach(c => {
@@ -353,110 +366,196 @@ function initCharts() {
     (c.tags || []).forEach(t => { yearTags[y][t] = (yearTags[y][t] || 0) + 1; });
   });
   const topTechs = ['AI', '智能电网', '数字孪生', 'IoT', '储能', '虚拟电厂', '需求侧管理', '5G'];
-  const trendCtx = document.getElementById('trend-chart');
-  if (trendCtx) {
-    new Chart(trendCtx, {
-      type: 'line',
-      data: {
-        labels: allYears,
-        datasets: topTechs.map((tech, i) => ({
-          label: tech,
-          data: allYears.map(y => (yearTags[y] || {})[tech] || 0),
-          borderColor: CHART_COLORS[i % CHART_COLORS.length],
-          backgroundColor: 'transparent',
-          borderWidth: 2.5,
-          tension: 0.4,
-          pointRadius: 3,
-          pointHoverRadius: 6,
-        }))
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { position: 'bottom', labels: { font: { size: 11 }, padding: 12 } } },
-        scales: { y: { beginAtZero: true, grid: { color: '#f1f5f9' } }, x: { grid: { display: false } } }
+  {
+    const cv = getCanvas('trend-chart');
+    if (cv) {
+      const { ctx, w, h } = cv;
+      const pad = { top: 15, right: 15, bottom: 35, left: 38 };
+      const cw = w - pad.left - pad.right;
+      const ch = h - pad.top - pad.bottom;
+      const maxVal = Math.max(...topTechs.map(t => Math.max(...allYears.map(y => (yearTags[y]||{})[t]||0))), 1);
+
+      // Grid + Y labels
+      ctx.strokeStyle = '#f1f5f9';
+      ctx.fillStyle = '#94a3b8';
+      ctx.font = '10px Inter, sans-serif';
+      ctx.lineWidth = 1;
+      const ySteps = 4;
+      for (let i = 0; i <= ySteps; i++) {
+        const y = pad.top + ch - (ch * i / ySteps);
+        ctx.beginPath(); ctx.moveTo(pad.left, y); ctx.lineTo(w - pad.right, y); ctx.stroke();
+        const val = Math.round(maxVal * i / ySteps);
+        ctx.textAlign = 'right'; ctx.fillText(val, pad.left - 5, y + 3);
       }
-    });
+      // X labels
+      ctx.textAlign = 'center';
+      allYears.forEach((yr, i) => {
+        const x = pad.left + (cw * i / (allYears.length - 1));
+        ctx.fillText(yr, x, h - 8);
+      });
+      // Lines
+      topTechs.forEach((tech, ti) => {
+        const data = allYears.map(y => (yearTags[y]||{})[tech] || 0);
+        ctx.strokeStyle = COLORS[ti % COLORS.length];
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        data.forEach((v, i) => {
+          const x = pad.left + (cw * i / (data.length - 1));
+          const y = pad.top + ch - (ch * v / maxVal);
+          i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+        });
+        ctx.stroke();
+        // Dots
+        ctx.fillStyle = COLORS[ti % COLORS.length];
+        data.forEach((v, i) => {
+          const x = pad.left + (cw * i / (data.length - 1));
+          const y = pad.top + ch - (ch * v / maxVal);
+          ctx.beginPath(); ctx.arc(x, y, 2.5, 0, Math.PI * 2); ctx.fill();
+        });
+      });
+      // Legend
+      const legendY = h - 1;
+      let legendX = pad.left;
+      ctx.font = '9px Inter, sans-serif';
+      topTechs.forEach((tech, ti) => {
+        ctx.fillStyle = COLORS[ti % COLORS.length];
+        ctx.fillRect(legendX, legendY - 8, 8, 8);
+        ctx.fillStyle = '#64748b';
+        ctx.textAlign = 'left';
+        ctx.fillText(tech, legendX + 11, legendY);
+        legendX += ctx.measureText(tech).width + 24;
+      });
+    }
   }
 
-  // 2. Confidence Distribution (Doughnut)
+  // ── 2. Confidence Distribution (Doughnut) ──
   const confCounts = {};
-  allCases.forEach(c => {
-    const k = c.confidence || '未标注';
-    confCounts[k] = (confCounts[k] || 0) + 1;
-  });
-  const confCtx = document.getElementById('confidence-chart');
-  if (confCtx) {
-    new Chart(confCtx, {
-      type: 'doughnut',
-      data: {
-        labels: Object.keys(confCounts),
-        datasets: [{
-          data: Object.values(confCounts),
-          backgroundColor: ['#00c9a7', '#f59e0b', '#ef4444', '#94a3b8'],
-          borderWidth: 0,
-          hoverOffset: 8
-        }]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { position: 'bottom', labels: { font: { size: 11 }, padding: 12 } } }
-      }
-    });
+  allCases.forEach(c => { const k = c.confidence || '未标注'; confCounts[k] = (confCounts[k] || 0) + 1; });
+  {
+    const cv = getCanvas('confidence-chart');
+    if (cv) {
+      const { ctx, w, h } = cv;
+      const cx = w / 2, cy = h / 2 - 10;
+      const r = Math.min(w, h) / 2 - 30;
+      const total = Object.values(confCounts).reduce((a, b) => a + b, 0);
+      const colors = ['#00c9a7', '#f59e0b', '#ef4444', '#94a3b8'];
+      let angle = -Math.PI / 2;
+      const entries = Object.entries(confCounts);
+      entries.forEach(([label, val], i) => {
+        const slice = (val / total) * Math.PI * 2;
+        ctx.beginPath();
+        ctx.moveTo(cx, cy);
+        ctx.arc(cx, cy, r, angle, angle + slice);
+        ctx.closePath();
+        ctx.fillStyle = colors[i % colors.length];
+        ctx.fill();
+        // Label
+        const mid = angle + slice / 2;
+        const lx = cx + Math.cos(mid) * r * 0.65;
+        const ly = cy + Math.sin(mid) * r * 0.65;
+        ctx.fillStyle = '#fff';
+        ctx.font = 'bold 11px Inter, sans-serif';
+        ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+        ctx.fillText(`${Math.round(val/total*100)}%`, lx, ly);
+        angle += slice;
+      });
+      // Center hole
+      ctx.beginPath(); ctx.arc(cx, cy, r * 0.5, 0, Math.PI * 2);
+      ctx.fillStyle = '#fff'; ctx.fill();
+      ctx.fillStyle = '#1a202c'; ctx.font = 'bold 18px Inter, sans-serif';
+      ctx.fillText(total, cx, cy - 6);
+      ctx.fillStyle = '#64748b'; ctx.font = '10px Inter, sans-serif';
+      ctx.fillText('Total', cx, cy + 10);
+      // Legend
+      let ly = h - 16;
+      let lx = 10;
+      entries.forEach(([label, val], i) => {
+        ctx.fillStyle = colors[i % colors.length];
+        ctx.fillRect(lx, ly - 6, 10, 10);
+        ctx.fillStyle = '#64748b'; ctx.font = '10px Inter, sans-serif';
+        ctx.textAlign = 'left';
+        ctx.fillText(`${label} (${val})`, lx + 14, ly + 2);
+        lx += ctx.measureText(`${label} (${val})`).width + 30;
+      });
+    }
   }
 
-  // 3. Year Distribution (Bar)
+  // ── 3. Year Distribution (Bar) ──
   const yearCounts = {};
   allCases.forEach(c => { yearCounts[c.year] = (yearCounts[c.year] || 0) + 1; });
-  const yearCtx = document.getElementById('year-chart');
-  if (yearCtx) {
-    new Chart(yearCtx, {
-      type: 'bar',
-      data: {
-        labels: Object.keys(yearCounts).sort((a,b) => a-b),
-        datasets: [{
-          label: 'Cases',
-          data: Object.entries(yearCounts).sort((a,b) => a[0]-b[0]).map(e => e[1]),
-          backgroundColor: '#0f4c81',
-          borderRadius: 6,
-          borderSkipped: false,
-        }]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: { y: { beginAtZero: true, grid: { color: '#f1f5f9' } }, x: { grid: { display: false } } }
+  {
+    const cv = getCanvas('year-chart');
+    if (cv) {
+      const { ctx, w, h } = cv;
+      const pad = { top: 15, right: 10, bottom: 28, left: 35 };
+      const cw = w - pad.left - pad.right;
+      const ch = h - pad.top - pad.bottom;
+      const entries = Object.entries(yearCounts).sort((a, b) => a[0] - b[0]);
+      const maxVal = Math.max(...entries.map(e => e[1]), 1);
+      const barW = cw / entries.length * 0.65;
+      const gap = cw / entries.length;
+
+      // Grid
+      ctx.strokeStyle = '#f1f5f9'; ctx.lineWidth = 1;
+      ctx.fillStyle = '#94a3b8'; ctx.font = '10px Inter, sans-serif';
+      for (let i = 0; i <= 4; i++) {
+        const y = pad.top + ch - (ch * i / 4);
+        ctx.beginPath(); ctx.moveTo(pad.left, y); ctx.lineTo(w - pad.right, y); ctx.stroke();
+        ctx.textAlign = 'right';
+        ctx.fillText(Math.round(maxVal * i / 4), pad.left - 5, y + 3);
       }
-    });
+      // Bars
+      entries.forEach(([yr, cnt], i) => {
+        const x = pad.left + gap * i + (gap - barW) / 2;
+        const barH = (cnt / maxVal) * ch;
+        const y = pad.top + ch - barH;
+        ctx.fillStyle = '#0f4c81';
+        ctx.beginPath();
+        ctx.roundRect(x, y, barW, barH, [4, 4, 0, 0]);
+        ctx.fill();
+        // Value on top
+        ctx.fillStyle = '#1a202c'; ctx.font = '9px Inter, sans-serif';
+        ctx.textAlign = 'center';
+        ctx.fillText(cnt, x + barW / 2, y - 4);
+        // X label
+        ctx.fillStyle = '#64748b';
+        ctx.fillText(yr, x + barW / 2, h - 8);
+      });
+    }
   }
 
-  // 4. Top Tags (Horizontal Bar)
+  // ── 4. Top Tags (Horizontal Bar) ──
   const tagCounts = {};
   allCases.forEach(c => (c.tags || []).forEach(t => { tagCounts[t] = (tagCounts[t] || 0) + 1; }));
-  const sortedTags = Object.entries(tagCounts).sort((a,b) => b[1]-a[1]).slice(0, 10);
-  const tagsCtx = document.getElementById('tags-chart');
-  if (tagsCtx) {
-    new Chart(tagsCtx, {
-      type: 'bar',
-      data: {
-        labels: sortedTags.map(e => e[0]),
-        datasets: [{
-          label: 'Count',
-          data: sortedTags.map(e => e[1]),
-          backgroundColor: CHART_COLORS[1],
-          borderRadius: 6,
-          borderSkipped: false,
-        }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: { x: { beginAtZero: true, grid: { color: '#f1f5f9' } }, y: { grid: { display: false } } }
-      }
-    });
+  const sortedTags = Object.entries(tagCounts).sort((a, b) => b[1] - a[1]).slice(0, 10);
+  {
+    const cv = getCanvas('tags-chart');
+    if (cv) {
+      const { ctx, w, h } = cv;
+      const pad = { top: 8, right: 35, bottom: 8, left: 80 };
+      const cw = w - pad.left - pad.right;
+      const ch = h - pad.top - pad.bottom;
+      const maxVal = Math.max(...sortedTags.map(e => e[1]), 1);
+      const barH = ch / sortedTags.length * 0.6;
+      const gap = ch / sortedTags.length;
+
+      sortedTags.forEach(([tag, cnt], i) => {
+        const y = pad.top + gap * i + (gap - barH) / 2;
+        const barW = (cnt / maxVal) * cw;
+        // Tag label
+        ctx.fillStyle = '#64748b'; ctx.font = '10px Inter, sans-serif';
+        ctx.textAlign = 'right';
+        ctx.fillText(tag, pad.left - 8, y + barH / 2 + 3);
+        // Bar
+        ctx.fillStyle = '#00c9a7';
+        ctx.beginPath();
+        ctx.roundRect(pad.left, y, barW, barH, [0, 4, 4, 0]);
+        ctx.fill();
+        // Value
+        ctx.fillStyle = '#1a202c'; ctx.font = '9px Inter, sans-serif';
+        ctx.textAlign = 'left';
+        ctx.fillText(cnt, pad.left + barW + 5, y + barH / 2 + 3);
+      });
+    }
   }
 }
